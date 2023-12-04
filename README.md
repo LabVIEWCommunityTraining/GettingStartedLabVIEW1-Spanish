@@ -1,5 +1,5 @@
 # GettingStartedLabVIEW1-Español
-Getting Started con Session de 3 horas con LabVIEW y Raspberry Pi Pico HW Español
+Session de 3 horas con LabVIEW y Raspberry Pi Pico HW Español
 
 Este repositorio contiene
 1) Manuales del curso en Open Document Format (usar LibreOffice)
@@ -10,4 +10,4 @@ Este repositorio contiene
 6) Soluciones
 7) Archivo de Firmware
 
-Este material es gratuito bajo la licencia MIT, si mejoras el material para la comunidad por favor actualiza el repositorio para la comunidad.
+Este material es gratuito bajo la licencia MIT, si mejoras el material para la comunidad por favor actualiza el repositorio.
