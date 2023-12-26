@@ -33,7 +33,7 @@
 * Estructuras de Eventos - Event Structures	
 
 Configurando el sistema
-[Instrucciones para tutor en Open Document Format](./InstruccionesTutor.html)
+[Instrucciones para tutor](./InstruccionesTutor.html)
 * Si estas usando el emulador, cargalo navegando a /root/Desktop/GettingStartedLabVIEW1-Spanish-main/
 Emulador de instrumento en LabVIEW/builds/HandsOn/CTIPicoVISAEmulator/
 * Da click derecho y selecciona ‘Open Terminal Here’
@@ -51,7 +51,7 @@ Emulador de instrumento en LabVIEW/builds/HandsOn/CTIPicoVISAEmulator/
 * Después simplemente esperará por una conexión. “Connecting” será mostrado en la barra de estado.
 
 # Lección 1 – LabVIEW “Hello World” LED On/Off
-Opcional: Configurando el Hardware 
+**Opcional**: Configurando el Hardware 
 Si tienes el hardware para este curso, necesitaras configurarlo y conectarlo como lo muestra la siguiente imagen. Si no, avanza a Instrucciones.
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/19efa352-e5e0-420e-9437-6cefb5fb1a49)
 
@@ -71,35 +71,40 @@ En LabVIEW un VI (Virtual Instrument) es el equivalente a una función o un mód
 * Arrastra el VI Initialize.vi, WriteDO.vi y Close.vi en el diagrama de bloques como se muestra a continuacion.
     ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/142dd1d1-fb9d-4c31-b3b4-c04780d127ff)
 
-***Observa que la flecha para ejecutar esta rota (esta flecha esta en la esquina superior izquierda), si la presionas, la ventana de errores aparecera y vendran todas las razones por las cuales no se puede ejecutar el codigo.***
+*Observa que la flecha para ejecutar esta rota (esta flecha esta en la esquina superior izquierda), si la presionas, la ventana de errores aparecera y vendran todas las razones por las cuales no se puede ejecutar el codigo.*
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/4e371803-0d24-445c-958a-ec8414309aab)
 
-• LabVIEW no le permitirá ejecutar el código fuente hasta que se solucionen estos errores. Cierre la Lista de errores y seleccione todos los Vis. (Haga clic con el botón izquierdo y arrastre el mouse).
+__LabVIEW no le permitirá ejecutar el código fuente hasta que se solucionen estos errores. Cierre la Lista de errores y seleccione todos los Vis. (Haga clic con el botón izquierdo y arrastre el mouse).__
 
-• Presione Ctrl+espacio para abrir la caída rápida y Ctrl+W para conectar los VIs. Quick drop es una herramienta de productividad extremadamente útil que viene con LabVIEW. Le permite automatizar tareas repetitivas con algunas combinaciones de teclas.
+Presione Ctrl+espacio para abrir 'Quick Drop' y presione 'Ctrl+W' para conectar los VIs. Quick drop es una herramienta de productividad extremadamente útil que viene con LabVIEW. Le permite automatizar tareas repetitivas con algunas combinaciones de teclas.
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/b09151fb-88f6-4823-922d-639e41c5ae2a)
 
 
-Si presiona la flecha Ejecutar ahora, notará que solo hay 2 problemas enumerados, ¡buen trabajo!
+Si presiona la flecha Ejecutar, notará que solo hay 2 problemas enumerados, ¡buen trabajo!
 
-     • Presione Ctrl-H para abrir la ventana de ayuda contextual. Pase el cursor sobre Inicializar.vi.
-     ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/2b384f7c-d2fa-4ee6-9652-e3cd71acd2af)
+Presione Ctrl-H para abrir la ventana de ayuda contextual. Pase el cursor sobre Inicializar.vi.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/2b384f7c-d2fa-4ee6-9652-e3cd71acd2af)
 
 
-Observe que el nombre del recurso VISA está en negrita. Esto significa que necesita tener una entrada.
+Observe que algunas entradas estan en negrita como 'Visa Resource Name'. Esto significa que esta entrada es obligatoria.
 
-     • Ahora, haga clic derecho en VISA Resource Name Initialize.vi y seleccione crear constante.
+Haga clic derecho en 'VISA Resource Name' del VI Initialize.vi y seleccione crear constante.
 
 Si presiona la flecha Ejecutar ahora, notará que solo queda 1 problema.
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/c9299b51-d207-4239-95fd-ef3d75db44e4)
 
 Este VI necesita su cableado de salida y valor DO (verdadero). Así que creemos constantes para ellos. Utilice la flecha de la derecha para seleccionar una salida.
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/1000353a-eb6f-4a4b-af81-35b8e72f4637)
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/e716a2d7-111b-4a47-aadd-653b44fc29bf)
 
 Es bueno que se muestre la etiqueta constante para los booleanos.
 
-     • Haga clic derecho en la constante booleana "Verdadera". Aparecerá una ventana desplegable, coloque el cursor sobre "Visible Items" y seleccione "Label".
+Haga clic derecho en la constante booleana "Verdadera". Aparecerá una ventana desplegable, coloque el cursor sobre "Visible Items" y seleccione "Label".
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/54096500-f600-452a-b244-107407c492ae)
 
