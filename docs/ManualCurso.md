@@ -5,7 +5,7 @@
 
 # Tabla de contenido
 * Configurando el sistema
-* Lección 1 – LabVIEW “Hello World” LED On/Off
+* [Lección 1 – LabVIEW “Hello World” LED On/Off](/ManualCurso#-Lección-1-–-LabVIEW-“Hello-World”-LED-On/Off)
 * Opcional: Configurando el Hardware
 * Lección Instrucciones
 * Lección 2 – Ciclos For (For Loops)
