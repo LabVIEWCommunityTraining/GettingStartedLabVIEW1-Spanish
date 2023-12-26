@@ -110,4 +110,48 @@ Haga clic derecho en la constante booleana "Verdadera". Aparecerá una ventana d
 
 Las constantes son terminales en el diagrama de bloques que suministran valores de datos fijos al diagrama. Discutiremos los tipos de datos, etc. más adelante en la sesión.
 
-     • Finalmente conectemos un par de salidas.
+Finalmente conectemos un par de salidas.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/cf6d9b82-d9f4-432e-b8c4-a58dc475ac3e)
+
+Haga clic derecho en IDN para Inicializar.vi y seleccione "Create Indicator". Luego necesitamos eliminar un error, así que haga clic derecho en la parte inferior de Close.vi y seleccione "Create Indicator".
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/52586b53-ab80-4d8b-a49f-35b1f0e1a3da)
+
+Observe cómo aparecen los indicadores en el panel frontal. Discutiremos los diagramas de bloques y los paneles frontales en un momento.
+
+¡Ahora tenemos un programa listo para ejecutar!
+
+Sin embargo, notarás que tendremos un error.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/7908dc72-b056-470f-b530-332540ef524c)
+
+Podemos consultar el mensaje de error para intentar obtener una pista de por qué todo salió tan mal. A veces incluso puede resultar útil.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/062e5d5b-1a24-4af7-b5aa-cdafeef3ff3d)
+
+En este caso el problema es...
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/74f37f12-a5fd-49bd-ab48-0a0f6dd83108)
+
+__Los VIs no saben con quién están hablando. Para solucionar este problema, los usuarios de hardware deben configurar la referencia VISA correcta en el cuadro desplegable 'VISA'. Para los usuarios del emulador, haga clic en el botón 'Copiar', como se ve en la imagen a continuación y pegue la referencia, si tiene una actualización de hardware. y seleccione la referencia ASRL.__
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/ff03d635-6c29-474a-83ce-bdf153fab323)
+
+Ahora, presione 'Run' nuevamente
+
+El indicador de error mostrara que no hay error, el indicador de identidad habra cambiado y ahora despliega valores.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/5c2570bb-2497-4d50-9b4f-670e6ed637f1)
+
+Pero, algo mas importante es que el LED del hardware se ha encendido!
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/465b4cdf-0aa2-4014-92a6-4eab1eb42a3c)
+
+
+
+
+
+
+
+
