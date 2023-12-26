@@ -53,9 +53,11 @@ Acomoda las ventanas de la siguiente manera:
 En LabVIEW un VI (Virtual Instrument) es el equivalente a una función o un módulo en otros lenguajes de programación. Un programa en LabVIEW esta hecho por uno o mas VIs.
 
 En el diagrama de bloques (Block Diagram) da click derecho y navega a HandsOnPi2040 Driver Palette.
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/bd6141e9-356a-44bc-8179-4b56c5abcde3)
       
 Arrastra el VI Initialize.vi, WriteDO.vi y Close.vi en el diagrama de bloques como se muestra a continuacion.
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/142dd1d1-fb9d-4c31-b3b4-c04780d127ff)
 
 *Observa que la flecha para ejecutar esta rota (esta flecha esta en la esquina superior izquierda), si la presionas, la ventana de errores aparecera y vendran todas las razones por las cuales no se puede ejecutar el codigo.*
@@ -70,7 +72,7 @@ Presione Ctrl+espacio para abrir 'Quick Drop' y presione 'Ctrl+W' para conectar 
 
 Si presiona la flecha Ejecutar, notará que solo hay 2 problemas enumerados, ¡buen trabajo!
 
-Presione Ctrl-H para abrir la ventana de ayuda contextual. Pase el cursor sobre Inicializar.vi.
+Presione Ctrl-H para abrir la ventana de ayuda contextual. Pase el cursor sobre Initialize.vi.
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/2b384f7c-d2fa-4ee6-9652-e3cd71acd2af)
 
