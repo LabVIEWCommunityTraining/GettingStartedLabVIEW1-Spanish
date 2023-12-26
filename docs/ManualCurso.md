@@ -6,41 +6,44 @@
 # Tabla de contenido
 * Configurando el sistema
 * [Lección 1 – LabVIEW “Hello World” LED On/Off](#Lección-1-–-LabVIEW-“Hello-World”-LED-On/Off)
-* Lección 2 – Ciclos For (For Loops)
-* Lección 3 – Ciclos While (While Loop)
-* Lección 4 – Estructura de Eventos (Event Structure)	
-* Lección 5 – Numeros, Graficas y Charts	
-* Conceptos Generales
-* VIs (Instrumentos Virtuales - Virtual Instruments)	
-* Tipos de Datos	
-* Ciclos While - While Loops	
-* Ciclos For - For Loops	
-* Estructuras de Eventos - Event Structures	
+* [Lección 2 – Ciclos For (For Loops)](#Lección-2---Ciclos-For-(For-Loops))
+* [Lección 3 – Ciclos While (While Loop)](#Lección-3---Ciclos-While---While-Loops)
+* [Lección 4 – Estructura de Eventos (Event Structure)](#Lección-4---Estructura-de-Eventos---Event-Structure)
+* [Lección 5 – Numeros, Graficas y Charts](#Lección-5---Numeros,-Gráficas-y-Charts)
+* [Conceptos Generales](#Conceptos-Generales)
+* [Tipos de Datos](#Tipos-de-Datos)
+* [Ciclos While - While Loops](#Ciclos-While)
+* [Ciclos For - For Loops](#Ciclos-For)
+* [Estructuras de Eventos - Event Structures](#Estructuras-de-Eventos)
 
-Configurando el sistema
+## Configurando el sistema
 [Instrucciones para tutor](./InstruccionesTutor.html)
-* Si estas usando el emulador, cargalo navegando a /root/Desktop/GettingStartedLabVIEW1-Spanish-main/
+Si estas usando el emulador, cargalo navegando a /root/Desktop/GettingStartedLabVIEW1-Spanish-main/
 Emulador de instrumento en LabVIEW/builds/HandsOn/CTIPicoVISAEmulator/
-* Da click derecho y selecciona ‘Open Terminal Here’
+Da click derecho y selecciona ‘Open Terminal Here’
     ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/9edd704c-c81b-4c34-a92f-416af763ec48)
 
-* Escribe lo siguiente: 
+Escribe lo siguiente: 
 ./CTIPicoVISAEmulator.exe
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/f644fde9-b481-48f4-b450-e48bac99970a)
 
-* El emulador te pedirá elegir una subred.
+El emulador te pedirá elegir una subred.
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/159f16c4-16f9-4530-b841-644f0cbbf5ad)
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/3b293499-a5ea-4dd9-b082-2c3e08ba427c)
 
-
-* Después simplemente esperará por una conexión. “Connecting” será mostrado en la barra de estado.
+Después simplemente esperará por una conexión. “Connecting” será mostrado en la barra de estado.
 
 # Lección 1 – LabVIEW “Hello World” LED On/Off
+
 **Opcional**: Configurando el Hardware 
+
 Si tienes el hardware para este curso, necesitaras configurarlo y conectarlo como lo muestra la siguiente imagen. Si no, avanza a Instrucciones.
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/19efa352-e5e0-420e-9437-6cefb5fb1a49)
 
 ## Instrucciones
+
 El equivalente en LabVIEW de un programa “Hello World” es hacer que una pieza de hardware haga algo básico, usualmente es hacer un led parpadear (ON-Off).
 Arranca LabVIEW y selecciona New VI.
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/4c3341c5-da7e-45ad-b18c-0185f6f0bbcf)
@@ -50,11 +53,11 @@ Acomoda las ventanas de la siguiente manera:
 
 En LabVIEW un VI (Virtual Instrument) es el equivalente a una función o un módulo en otros lenguajes de programación. Un programa en LabVIEW esta hecho por uno o mas VIs.
 
-* En el diagrama de bloques (Block Diagram) da click derecho y navega a HandsOnPi2040 Driver Palette.
-    ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/bd6141e9-356a-44bc-8179-4b56c5abcde3)
+En el diagrama de bloques (Block Diagram) da click derecho y navega a HandsOnPi2040 Driver Palette.
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/bd6141e9-356a-44bc-8179-4b56c5abcde3)
       
-* Arrastra el VI Initialize.vi, WriteDO.vi y Close.vi en el diagrama de bloques como se muestra a continuacion.
-    ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/142dd1d1-fb9d-4c31-b3b4-c04780d127ff)
+Arrastra el VI Initialize.vi, WriteDO.vi y Close.vi en el diagrama de bloques como se muestra a continuacion.
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/142dd1d1-fb9d-4c31-b3b4-c04780d127ff)
 
 *Observa que la flecha para ejecutar esta rota (esta flecha esta en la esquina superior izquierda), si la presionas, la ventana de errores aparecera y vendran todas las razones por las cuales no se puede ejecutar el codigo.*
 
@@ -66,13 +69,11 @@ Presione Ctrl+espacio para abrir 'Quick Drop' y presione 'Ctrl+W' para conectar 
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/b09151fb-88f6-4823-922d-639e41c5ae2a)
 
-
 Si presiona la flecha Ejecutar, notará que solo hay 2 problemas enumerados, ¡buen trabajo!
 
 Presione Ctrl-H para abrir la ventana de ayuda contextual. Pase el cursor sobre Inicializar.vi.
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/2b384f7c-d2fa-4ee6-9652-e3cd71acd2af)
-
 
 Observe que algunas entradas estan en negrita como 'Visa Resource Name'. Esto significa que esta entrada es obligatoria.
 
@@ -85,6 +86,7 @@ Si presiona la flecha Ejecutar ahora, notará que solo queda 1 problema.
 Este VI necesita su cableado de salida y valor DO (verdadero). Así que creemos constantes para ellos. Utilice la flecha de la derecha para seleccionar una salida.
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/1000353a-eb6f-4a4b-af81-35b8e72f4637)
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/e716a2d7-111b-4a47-aadd-653b44fc29bf)
 
 Es bueno que se muestre la etiqueta constante para los booleanos.
@@ -355,10 +357,18 @@ Conecte la constante a la condición de ciclo, como se muestra en la imagen a co
 
 El programa ahora se ejecutará exitosamente. Podrás encender y apagar los LED tantas veces como quieras. Puede utilizar el botón Stop para detener la ejecución del programa.
 
+# Lección 5 - Numeros, Gráficas y Charts
+
+# Conceptos Generales
+
+# Tipos de Datos
+
+# Ciclos While
 
 
+# Ciclos For
 
-
+# Estructuras de Eventos
 
 
 
