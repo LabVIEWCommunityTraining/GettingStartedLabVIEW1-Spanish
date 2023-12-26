@@ -5,26 +5,11 @@
 
 # Tabla de contenido
 * Configurando el sistema
-* [Lección 1 – LabVIEW “Hello World” LED On/Off](#-Lección-1-–-LabVIEW-“Hello-World”-LED-On/Off)
-* Opcional: Configurando el Hardware
-* Lección Instrucciones
+* [Lección 1 – LabVIEW “Hello World” LED On/Off](#Lección-1-–-LabVIEW-“Hello-World”-LED-On/Off)
 * Lección 2 – Ciclos For (For Loops)
-* Opcional: Configurando el Hardware	
-* Lección Instrucciones	
 * Lección 3 – Ciclos While (While Loop)
-* Opcional: Configuración de Hardware	
-* Lección Instrucciones	
-* Exercise – Uso de entradas digitales para detener un ciclo	
 * Lección 4 – Estructura de Eventos (Event Structure)	
-* Opcional: Setting up the Hardware	
-* Lección Insrucciones	24
 * Lección 5 – Numeros, Graficas y Charts	
-* Opcional: Configurando el Hardware (Analog input)	
-* Lección Instrucciones	
-* Entrada Analógica	
-* Salida Analógica (Write)	
-* Opcional: Configuración del Hardware (Salida Analógica)	
-* Analog Output (Read)	
 * Conceptos Generales
 * VIs (Instrumentos Virtuales - Virtual Instruments)	
 * Tipos de Datos	
