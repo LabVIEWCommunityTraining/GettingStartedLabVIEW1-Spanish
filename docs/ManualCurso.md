@@ -9,12 +9,12 @@
 * [Lección 2 – Ciclos For (For Loops)](#lección-2---ciclos-for-for-loops)
 * [Lección 3 – Ciclos While (While Loop)](#Lección-3---Ciclos-While---While-Loops)
 * [Lección 4 – Estructura de Eventos (Event Structure)](#Lección-4---Estructura-de-Eventos---Event-Structure)
-* [Lección 5 – Numeros, Graficas y Charts](#Lección-5---Numeros,-Gráficas-y-Charts)
-* [Conceptos Generales](#Conceptos-Generales)
-* [Tipos de Datos](#Tipos-de-Datos)
-* [Ciclos While - While Loops](#Ciclos-While)
-* [Ciclos For - For Loops](#Ciclos-For)
-* [Estructuras de Eventos - Event Structures](#Estructuras-de-Eventos)
+* [Lección 5 – Numeros, Graficas y Charts](#lección-5---numeros-gráficas-y-charts)
+* [Conceptos Generales](#conceptos-generales)
+* [Tipos de Datos](#tipos-de-datos)
+* [Ciclos While - While Loops](#ciclos-while)
+* [Ciclos For - For Loops](#ciclos-for)
+* [Estructuras de Eventos - Event Structures](#estructuras-de-eventos)
 
 ## Configurando el sistema
 [Instrucciones para tutor](./InstruccionesTutor.html)
