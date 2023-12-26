@@ -1,10 +1,6 @@
-# Manual del curso
-
 [Inicio](./index.html)
 
-
-# Tabla de contenido
-* Configurando el sistema
+* [Configurando el sistema](#configurando-el-sistema)
 * [Lección 1 – LabVIEW “Hello World” LED On/Off](#lección-1--labview-hello-world-led-onoff)
 * [Lección 2 – Ciclos For (For Loops)](#lección-2---ciclos-for-for-loops)
 * [Lección 3 – Ciclos While (While Loop)](#Lección-3---Ciclos-While---While-Loops)
@@ -18,13 +14,16 @@
 
 ## Configurando el sistema
 [Instrucciones para tutor](./InstruccionesTutor.html)
+
 Si estas usando el emulador, cargalo navegando a /root/Desktop/GettingStartedLabVIEW1-Spanish-main/
 Emulador de instrumento en LabVIEW/builds/HandsOn/CTIPicoVISAEmulator/
 Da click derecho y selecciona ‘Open Terminal Here’
-    ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/9edd704c-c81b-4c34-a92f-416af763ec48)
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/9edd704c-c81b-4c34-a92f-416af763ec48)
 
 Escribe lo siguiente: 
-./CTIPicoVISAEmulator.exe
+
+>./CTIPicoVISAEmulator.exe
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/f644fde9-b481-48f4-b450-e48bac99970a)
 
 El emulador te pedirá elegir una subred.
