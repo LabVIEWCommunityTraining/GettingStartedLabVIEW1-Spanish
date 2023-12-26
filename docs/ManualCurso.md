@@ -149,6 +149,69 @@ Pero, algo mas importante es que el LED del hardware se ha encendido!
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/465b4cdf-0aa2-4014-92a6-4eab1eb42a3c)
 
 
+# Lección 2 - Ciclos For (For Loops)
+Opcional: Configuración de Hardware
+
+Conecte el hardware como la imagen siguiente:
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/55b91ce8-3c9b-4bb9-8082-a911e74e7275)
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/ab4506dc-f5f3-4008-a3b9-03123cd26ebf)
+
+## Instrucciones
+
+Un ciclo For ejecuta un sub-diagrama un numero determinado de veces. En este caso, aprenderás a construir un programa que hace parpadear un LED 10 veces antes de detenerse
+
+Agrande su espacio de trabajo para dejar espacio para agregar objetos. Utilice Ctrl y luego arrastre para expandir.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/484becac-5d71-445e-90b0-37525819cead)
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/c7ebdddb-80e6-43cc-a645-2c6b2acd05d9)
+
+Alternativamente, seleccione los objetos que necesita mover con la herramienta de selección y arrástrelos a donde desee con el mouse o usando las flechas.
+
+__Nota: presione Mayús y una tecla de flecha para mover los elementos seleccionados más rápido.__
+
+Ahora inserte un ciclo For, para hacerlo, haga clic derecho en cualquier lugar del diagrama de bloques para abrir la paleta de funciones. Seleccione 'Estructuras' y luego 'For Loop'.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/fcb44595-01e3-49f8-ac4f-7bbb2802f783)
+
+Sólo necesitará colocar el bucle For alrededor del WriteDO SubVI (y las constantes adjuntas a él).
+
+Una vez que se haya colocado el ciclo For, verá una 'N' en la esquina superior izquierda, este es el numero de iteraciones que realizará el ciclo For.
+
+Haga clic derecho en la N y seleccione "Crear una constante". Para esta tarea necesitará que el número de bucles sea 20 (10 veces activado y 10 veces desactivado).
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/414e694a-ae63-41e2-a36a-63e4354bbe9b)
+
+Para que el programa "parpadee" correctamente, necesitará saber qué se ha ejecutado en la iteración anterior, por lo que necesitará un registro de desplazamiento (shift Register).
+
+Haga clic derecho en el borde del ciclo For y seleccione "add shift register". Conecte la constante verdadera a los registros de desplazamiento y al terminal del cable DO (valor).
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/e7da0c07-5417-48a3-b640-e2e671d020ad)
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/28a02b6e-76f8-47d5-ac87-b2f6834763ae)
+
+Si ejecutara el programa en este punto, el LED se iluminaría, pero no "parpadearía".
+
+Para un LED parpadeante necesitarás invertir el valor booleano después de cada iteración. Para hacer esto, haga clic derecho en cualquier lugar para abrir la paleta de funciones. Pase el cursor sobre "Booleano" y luego seleccione el booleano "Not". Conecte esto al registro de desplazamiento.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/790e2351-196b-4504-8a31-4beed7c9c29b)
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/fddc4fb2-9e21-4835-b9d7-37538c2a42da)
+
+¡El programa ahora funcionará! Sin embargo, se ejecutará muy rápido y no podrá ver el LED parpadeando. Entonces necesitas reducir la velocidad del ciclo.
+
+Haga clic derecho dentro del ciclo For y coloque el cursor sobre "Time". Allí verá muchas opciones de tiempo diferentes. Para ello utilizarás la función 'Wait'. Seleccionala y coloca dentro del Loop.
+
+Creea una constante haciendo clic derecho en el lado izquierdo de la función "Wait". La función "Wait" se ejecuta en milisegundos, por lo tanto, para ralentizar el ciclo 5 segundos, escriba 500.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/b4139bcd-b996-4248-a196-99a3b79d2572)
+
+Ahora ejecuta el programa. Ha utilizado con éxito un ciclo For para hacer parpadear la salida digital.
+
+
+
 
 
 
