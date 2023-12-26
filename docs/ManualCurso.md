@@ -210,6 +210,191 @@ Creea una constante haciendo clic derecho en el lado izquierdo de la función "W
 
 Ahora ejecuta el programa. Ha utilizado con éxito un ciclo For para hacer parpadear la salida digital.
 
+# Lección 3 - Ciclos While - While Loops
+
+Opcional: Configuración del Hardware
+Conecta el hardware de la siguiente manera:
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/d5d6d0d4-3271-40d3-b116-08c1402f5202)
+
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/de741e88-970b-4f3c-8d0d-307193177107)
+
+## Instrucciones
+
+El ciclo While ejecuta el subdiagrama hasta que ocurre una condición específica. Siempre se ejecutará al menos una vez.
+
+En este caso, deseamos que el LED parpadee continuamente hasta que se presione el botón "Stop". Puede crear esto utilizando el programa creado previamente con el For Loop.
+
+En primer lugar, haga clic derecho en el borde del ciclo For y seleccione "Replace with While Loop".
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/e46e9a0c-a3d8-4d65-8921-88aa0e509a8c)
+
+Ahora que el ciclo For ha sido reemplazado, el Loop Count (N) no está conectado. Esto no es necesario para un ciclo While y se puede eliminar.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/2d510608-2133-4bdd-b4fb-84f7318bafa7)
+
+Para agregar un booleano 'Stop', cambie a la ventana del panel frontal y haga clic derecho donde desea colocar el botón. Aparecerá la paleta Controles, seleccione "Boolean" y elija un botón. El ejemplo utiliza un "botón pulsador", pero cualquiera funcionará.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/4a82db62-590e-4cb7-b686-78641c159c9a)
+
+De vuelta en el diagrama de bloques, mueva el nuevo control booleano al ciclo While y conéctelo al terminal condicional en la esquina inferior derecha. Si se presiona el botón en el panel frontal cuando el programa se está ejecutando, el bucle finalizará y el LED "parpadeante" se detendrá.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/b342eea4-0fb3-4e38-b6b3-0285ed0a56c4)
+
+## Ejercicio - Uso de entradas digitales (DI) para detener el ciclo While
+__Pista: Diagrama de cableado para entrada digital__
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/5b8ede3a-05b2-4cb2-ac67-4036c2f412d3)
+
+__Pista: VI para entrada digital (DI)__
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/54f52bc0-7a5e-4f27-b68c-5fb68d4cdade)
+
+# Lección 4 - Estructura de Eventos - Event Structure
+
+Opcional: Configuración de Hardware
+Conecte el hardware de la siguiente manera:
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/3dd90791-c8ab-4f77-8387-0f2b7a896ca3)
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/bfba31c3-231d-44f0-852b-3f20378f4bf3)
+
+## Instrucciones
+
+Una estructura de eventos espera hasta que ocurra un determinado evento y luego ejecuta el caso apropiado para manejar ese evento. En este ejemplo, queremos presionar un botón y la luz correspondiente para encenderla.
+
+Primero, eliminemos el ciclo while y su contenido. Haga clic en el bucle While y presione la tecla Eliminar. Haga lo mismo con la constante "Verdadero". Luego retire los cables rotos con Ctrl+B.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/9b7012b5-e34c-4e5f-b87e-6476fc6177fc)
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/db1f0425-07d1-4ba5-97cd-6980df33df38)
+
+Haga clic derecho para abrir la paleta de funciones, coloque el cursor sobre "Estructuras" y luego seleccione "Estructura de eventos". Coloque la estructura de eventos en el diagrama de bloques.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/622c01a2-39d0-48ce-91f0-fa433fee8706)
+
+
+Conecte el VI Inicializar y el VI Cerrar a través de la Estructura del Evento.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/5f2b924e-e26b-452e-824d-c8fa1420b310)
+
+
+Agregue un nuevo caso de evento haciendo clic derecho en la etiqueta del selector y seleccione "Agregar caso de evento".
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/eabaf06e-5cef-4096-bd08-cc7a2040c960)
+
+Agregue WriteDO.vi abriendo la paleta de funciones, coloque el cursor sobre "Instrument I/O", "Instr Drivers", "HandsOnPi2040" y seleccione "WriteDO.vi".
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/ffc7cfce-a9b2-415b-9a74-0ce61016a1a6)
+
+Arrastre el sub VI dentro de la estructura del evento y conéctelo. Haga clic derecho en el terminal Salida y cree una Constante.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/83968bae-93f4-404d-87b1-f2b8b2fd1b79)
+
+Cambie la salida de "NO DO - Error" a "DO1" haciendo clic en la flecha desplegable en la constante de salida.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/46e9732c-15a8-47b2-b1e7-172c74becddb)
+
+A continuación necesitamos agregar un botón para la Salida Digital. Vaya al Panel frontal y haga clic derecho en cualquier lugar para abrir la Paleta de controles. Pase el cursor sobre "Boolean" y seleccione "Push button".
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/6f69a3fb-3296-474f-b7a6-3ab3a3e7bf20)
+
+Conecte el nuevo control booleano al terminal 'DO Value'.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/3d3a1c4a-8979-4b19-a65d-90c390ca4e29)
+
+Haga clic derecho en el selector de etiquetas, ya que necesitamos "Edit Events Handled by This Case".
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/f4f668c1-ad34-45ca-be7a-d92124c4b1ba)
+
+Esto abrirá la ventana "Editar eventos". Seleccione "Boolean".
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/77a94469-75c5-4d39-b9bb-dcdc7aa75e91)
+
+Este caso de evento ya está completo. Necesitaremos 3 Casos de Eventos más, cada uno correspondiente a un LED. La forma más sencilla de hacerlo es hacer clic derecho en el selector de etiquetas y seleccionar "Duplicate Event Case".
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/9058f9cc-ad66-4707-a9c7-7d1d55892312)
+
+Seleccione 'Boolean 2' en la ventana Editar eventos.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/a6e7bdbb-ad83-40ad-b8b5-3adae35cf8f7)
+
+Es importante cambiar la constante DO cuando el caso se ha duplicado. (DO1 para booleano, DO2 para booleano 2, etc.) Duplique este caso 2 veces más para DO3 y DO4.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/33ec6534-b6e1-4cf1-a0f9-b14acec732cb)
+
+En este punto, su panel frontal puede verse un poco desordenado; tómese un tiempo para limpiarlo. Esto hará que sea más fácil de usar cuando haya terminado de crear el programa.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/984b7c28-6b73-4b47-a326-5f7b30bed4c2)
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/03847edd-1889-430e-afbd-e0cdfda0db37)
+
+__Podrá ejecutar el programa ahora; sin embargo, se detendrá después de seleccionar un valor booleano. Podemos hacer esto más eficiente.__
+
+De vuelta en el diagrama de bloques necesitaremos agregar un ciclo While. Haga clic derecho para abrir la paleta de funciones, coloque el cursor sobre "Structures" y seleccione "While Loop".
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/d3604cb7-e7ce-4c32-abdd-4993d1bf80b1)
+
+Coloque el ciclo While alrededor de la estructura del evento.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/559b21af-6ef2-4398-9058-435afdab1dca)
+
+Vaya al Panel frontal, para que podamos agregar un botón "Stop" que conectaremos a la condición del ciclo. Haga clic derecho para abrir la paleta de controles, coloque el cursor sobre "Boolean" y luego seleccione "Stop Button".
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/63692026-a3d4-4e5f-8fbe-e911a3f4c46e)
+
+También necesitaremos crear un nuevo Caso de evento para este botón de Stop. Haga clic derecho en la etiqueta del selector y seleccione "Add Event Case".
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/70c38ba9-6c0a-4dcb-b640-d057b698e3dc)
+
+Coloque el control 'Detener' dentro del nuevo caso.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/574509f2-1b65-4303-af13-b9004b119784)
+
+Haga clic derecho en la etiqueta del selector y seleccione "Edit Events Handled by This Case".
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/b850954f-9a5d-4865-ae39-305abdebcbbd)
+
+Cuando aparezca la ventana "Edit Events", elija la opción "Stop" en la tabla "Event Sources".
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/960609b9-c1bf-4461-8a4a-72715f34399d)
+
+Nuestro último paso es conectar una constante "Verdadera" a la condición de ciclo. Haga clic derecho para abrir la paleta de funciones, coloque el cursor sobre "Boolean" y seleccione "True Constant". Coloque la Constante dentro de la Estructura del Evento.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/dc46242b-379b-40d7-9e69-860070f1752a)
+
+Conecte la constante a la condición de ciclo, como se muestra en la imagen a continuación.
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/75232482-4f70-4e69-baa6-19341935fd80)
+
+El programa ahora se ejecutará exitosamente. Podrás encender y apagar los LED tantas veces como quieras. Puede utilizar el botón Stop para detener la ejecución del programa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
