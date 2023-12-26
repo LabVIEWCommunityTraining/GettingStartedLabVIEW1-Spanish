@@ -1,4 +1,4 @@
-# Manuales del curso
+# Manual del curso
 
 [Inicio](./index.html)
 
