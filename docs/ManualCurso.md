@@ -5,7 +5,7 @@
 
 # Tabla de contenido
 * Configurando el sistema
-* [Lección 1 – LabVIEW “Hello World” LED On/Off](#Lección-1-–-LabVIEW-“Hello-World”-LED-On/Off)
+* [Lección 1 – LabVIEW “Hello World” LED On/Off](#lección-1--labview-hello-world-led-onoff)
 * [Lección 2 – Ciclos For (For Loops)](#lección-2---ciclos-for-for-loops)
 * [Lección 3 – Ciclos While (While Loop)](#Lección-3---Ciclos-While---While-Loops)
 * [Lección 4 – Estructura de Eventos (Event Structure)](#Lección-4---Estructura-de-Eventos---Event-Structure)
