@@ -155,7 +155,7 @@ Conecte el hardware como la imagen siguiente:
 
 Un ciclo For ejecuta un sub-diagrama un numero determinado de veces. En este caso, aprenderás a construir un programa que hace parpadear un LED 10 veces antes de detenerse
 
-Agrande su espacio de trabajo para dejar espacio para agregar objetos. Utilice Ctrl y luego arrastre para expandir.
+Agrande su espacio de trabajo para dejar espacio para agregar objetos. Utilice Ctrl y luego arrastre para expandir
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/484becac-5d71-445e-90b0-37525819cead)
 
