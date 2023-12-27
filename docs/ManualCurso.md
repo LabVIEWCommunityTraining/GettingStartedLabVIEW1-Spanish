@@ -15,7 +15,7 @@
 ## Configurando el sistema
 [Instrucciones para tutor](./InstruccionesTutor.html)
 
-Si estas usando el emulador, cargalo navegando a /root/Desktop/GettingStartedLabVIEW1-Spanish-main/
+Para usar el emulador, clona el repositorio y cargalo navegando a /root/Desktop/GettingStartedLabVIEW1-Spanish-main/
 Emulador de instrumento en LabVIEW/builds/HandsOn/CTIPicoVISAEmulator/
 Da click derecho y selecciona ‘Open Terminal Here’
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/9edd704c-c81b-4c34-a92f-416af763ec48)
