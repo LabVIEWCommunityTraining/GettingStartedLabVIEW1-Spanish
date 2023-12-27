@@ -69,9 +69,9 @@ Arrastra el VI Initialize.vi, WriteDO.vi y Close.vi en el diagrama de bloques co
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/4e371803-0d24-445c-958a-ec8414309aab)
 
-__LabVIEW no le permitirá ejecutar el código fuente hasta que se solucionen estos errores. Cierre la Lista de errores y seleccione todos los Vis. (Haga clic con el botón izquierdo y arrastre el mouse).__
+LabVIEW no le permitirá ejecutar el código fuente hasta que se solucionen estos errores. Cierre la Lista de errores y seleccione todos los Vis. (Haga clic con el botón izquierdo y arrastre el mouse).
 
-Presione Ctrl+espacio para abrir 'Quick Drop' y presione 'Ctrl+W' para conectar los VIs. Quick drop es una herramienta de productividad extremadamente útil que viene con LabVIEW. Le permite automatizar tareas repetitivas con algunas combinaciones de teclas.
+Presione Ctrl+espacio para abrir 'Quick Drop' y presione 'Ctrl+W' para conectar los VIs. Quick drop es una herramienta de productividad extremadamente útil que viene con LabVIEW. Le permite automatizar tareas repetitivas con algunas combinaciones de teclas
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/b09151fb-88f6-4823-922d-639e41c5ae2a)
 
@@ -85,11 +85,11 @@ Observe que algunas entradas estan en negrita como 'Visa Resource Name'. Esto si
 
 Haga clic derecho en 'VISA Resource Name' del VI Initialize.vi y seleccione crear constante.
 
-Si presiona la flecha Ejecutar ahora, notará que solo queda 1 problema.
+Si presiona la flecha Ejecutar ahora, notará que solo queda 1 problema
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/c9299b51-d207-4239-95fd-ef3d75db44e4)
 
-Este VI necesita su cableado de salida y valor DO (verdadero). Así que creemos constantes para ellos. Utilice la flecha de la derecha para seleccionar una salida.
+Este VI necesita su cableado de salida y valor DO (verdadero). Así que creemos constantes para ellos. Utilice la flecha de la derecha para seleccionar una salida
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/1000353a-eb6f-4a4b-af81-35b8e72f4637)
 
