@@ -30,6 +30,8 @@ El emulador te pedirá elegir una subred.
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/159f16c4-16f9-4530-b841-644f0cbbf5ad)
 
+
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/3b293499-a5ea-4dd9-b082-2c3e08ba427c)
 
 Después simplemente esperará por una conexión. “Connecting” será mostrado en la barra de estado.
@@ -39,15 +41,18 @@ Después simplemente esperará por una conexión. “Connecting” será mostrad
 **Opcional**: Configurando el Hardware 
 
 Si tienes el hardware para este curso, necesitaras configurarlo y conectarlo como lo muestra la siguiente imagen. Si no, avanza a Instrucciones.
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/19efa352-e5e0-420e-9437-6cefb5fb1a49)
 
 ## Instrucciones
 
 El equivalente en LabVIEW de un programa “Hello World” es hacer que una pieza de hardware haga algo básico, usualmente es hacer un led parpadear (ON-Off).
 Arranca LabVIEW y selecciona New VI.
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/4c3341c5-da7e-45ad-b18c-0185f6f0bbcf)
 
 Acomoda las ventanas de la siguiente manera:
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/7350d66a-f07d-4169-ac20-ded705dd28cd)
 
 En LabVIEW un VI (Virtual Instrument) es el equivalente a una función o un módulo en otros lenguajes de programación. Un programa en LabVIEW esta hecho por uno o mas VIs.
