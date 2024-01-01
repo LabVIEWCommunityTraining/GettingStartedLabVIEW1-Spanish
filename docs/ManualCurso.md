@@ -368,7 +368,7 @@ Nuestro último paso es conectar una constante "Verdadera" a la condición de ci
 Conecte la constante a la condición de ciclo, como se muestra en la imagen a continuación
 
 
-![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/75232482-4f70-4e69-baa6-19341935fd80)
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/3fdd8ba7-f668-414c-a42d-b2a7b8b8797f)
 
 
 El programa ahora se ejecutará exitosamente. Podrás encender y apagar los LED tantas veces como quieras. Puede utilizar el botón Stop para detener la ejecución del programa.
@@ -429,7 +429,7 @@ _El programa se ejecutara exitosamente, pero, se ejecutara una sola vez, obtenie
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/e9b586b6-9b3f-4b26-a7fb-a0f1f894cdc9)
 
-_Si estas utilizando el hardware fisico, notaras que el valor analogico leido estara brincando de un valor a otro, esto es hasta cierto punto normal y esta relacionado al ruido electromagnetico en el equipo.
+_Si estas utilizando el hardware fisico, notaras que el valor analogico leido estara brincando de un valor a otro, esto es hasta cierto punto normal y esta relacionado al ruido electromagnetico en el equipo._
 
 * Para tener un mejor aspecto, se puede reemplazar el indicador numerico por un Waveform Chart, el cual desplegara los datos de manera continua, da click derecho en el indicador 'Value', y navega hasta la opcion de reemplazar, aparecera la paleta de controles y ahi podras elegir un waveform Chart
 
