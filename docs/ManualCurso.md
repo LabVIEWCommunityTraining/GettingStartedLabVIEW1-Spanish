@@ -15,9 +15,10 @@
 ## Configurando el sistema
 [Instrucciones para tutor](./InstruccionesTutor.html)
 
-Para usar el emulador, clona el repositorio y cargalo navegando a /root/Desktop/GettingStartedLabVIEW1-Spanish-main/
-Emulador de instrumento en LabVIEW/builds/HandsOn/CTIPicoVISAEmulator/
+Para usar el emulador, clona el repositorio y cargalo navegando a /root/Desktop/GettingStartedLabVIEW1-Spanish-main/3) LabVIEW Instrument Emulator/builds/HandsOn/CTIPicoVISAEmulator/
+
 Da click derecho y selecciona ‘Open Terminal Here’
+
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/9edd704c-c81b-4c34-a92f-416af763ec48)
 
 Escribe lo siguiente: 
@@ -29,8 +30,6 @@ Escribe lo siguiente:
 El emulador te pedirá elegir una subred.
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/159f16c4-16f9-4530-b841-644f0cbbf5ad)
-
-
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/3b293499-a5ea-4dd9-b082-2c3e08ba427c)
 
@@ -85,7 +84,7 @@ Observe que algunas entradas estan en negrita como 'Visa Resource Name'. Esto si
 
 Haga clic derecho en 'VISA Resource Name' del VI Initialize.vi y seleccione crear constante.
 
-Si presiona la flecha Ejecutar ahora, notará que solo queda 1 problema
+Si presiona la flecha Ejecutar ahora, notará que solo queda 1 error a resolver
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/c9299b51-d207-4239-95fd-ef3d75db44e4)
 
@@ -97,7 +96,7 @@ Este VI necesita su cableado de salida y valor DO (verdadero). Así que creemos 
 
 Es bueno que se muestre la etiqueta constante para los booleanos.
 
-Haga clic derecho en la constante booleana "Verdadera". Aparecerá una ventana desplegable, coloque el cursor sobre "Visible Items" y seleccione "Label".
+Haga clic derecho en la constante booleana "True". Aparecerá una ventana desplegable, coloque el cursor sobre "Visible Items" y seleccione "Label".
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/54096500-f600-452a-b244-107407c492ae)
 
@@ -127,7 +126,7 @@ En este caso el problema es
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/74f37f12-a5fd-49bd-ab48-0a0f6dd83108)
 
-_Los VIs no saben con quién están hablando. Para solucionar este problema, los usuarios de hardware deben configurar la referencia VISA correcta en el cuadro desplegable 'VISA'. Para los usuarios del emulador, haga clic en el botón 'Copiar', como se ve en la imagen a continuación y pegue la referencia, si tiene una actualización de hardware. y seleccione la referencia ASRL._
+_Los VIs no saben con que hardware están vinculandose. Para solucionar este problema, los usuarios de hardware deben configurar la referencia VISA correcta en el cuadro desplegable 'VISA'. Para los usuarios del emulador, haga clic en el botón 'Copiar', como se ve en la imagen a continuación y pegue la referencia, si tiene una actualización de hardware. y seleccione la referencia ASRL._
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/ff03d635-6c29-474a-83ce-bdf153fab323)
 
@@ -254,11 +253,7 @@ Conecte el hardware de la siguiente manera:
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/3dd90791-c8ab-4f77-8387-0f2b7a896ca3)
 
-
-
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/bfba31c3-231d-44f0-852b-3f20378f4bf3)
-
-
 
 ## Instrucciones
 
@@ -266,18 +261,15 @@ Una estructura de eventos espera hasta que ocurra un determinado evento y luego 
 
 Primero, eliminemos el ciclo while y su contenido. Haga clic en el bucle While y presione la tecla Eliminar. Haga lo mismo con la constante "Verdadero". Luego retire los cables rotos con Ctrl+B
 
-
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/9b7012b5-e34c-4e5f-b87e-6476fc6177fc)
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/db1f0425-07d1-4ba5-97cd-6980df33df38)
 
 Haga clic derecho para abrir la paleta de funciones, coloque el cursor sobre "Estructuras" y luego seleccione "Estructura de eventos". Coloque la estructura de eventos en el diagrama de bloques
 
-
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/622c01a2-39d0-48ce-91f0-fa433fee8706)
 
-
-Conecte el VI Inicializar y el VI Cerrar a través de la Estructura del Evento.
+Conecte el VI Inicializar y el VI Cerrar a través de la Estructura del Evento
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/5f2b924e-e26b-452e-824d-c8fa1420b310)
 
@@ -382,6 +374,70 @@ Conecte la constante a la condición de ciclo, como se muestra en la imagen a co
 El programa ahora se ejecutará exitosamente. Podrás encender y apagar los LED tantas veces como quieras. Puede utilizar el botón Stop para detener la ejecución del programa.
 
 # Lección 5 - Numeros, Gráficas y Charts
+
+Opcional: Configuración del Hardware
+Conecta el hardware de la siguiente manera:
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/97fc78a9-7876-422d-b74a-c75400bb1ffb)
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/4d478f5a-b4c3-4f98-84bd-672c19c3b992)
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/e2a09693-e729-4f72-b7af-9d67f6fa4efd)
+
+## Instrucciones
+
+### Entrada Analogica (Analog Input)
+
+Hasta ahora has realizado programas usando entradas y salidas Digitales, es momento de revisar las entradas y salidas Analogicas. En esta leccion nos enfocaremos en las entradas Analogicas
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/f3772781-e5db-459d-a3c1-fc9bf1694eba)
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/4bb4c9f0-a99d-4d62-ad71-b2231c1796c4)
+
+* De igual manera que las lecciones anteriores, hay que comenzar con los VIs Initialize.vi y Close.vi en un nuevo diagrama de bloques (Block Diagram)
+
+* De click derecho para sacar la palete de funciones (Functions Palette). Revisa la siguiente imagen para ubicar el VI ReadAI.vi y arrastrarlo al diagrama de bloques
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/e9606dd8-840e-4f37-aea6-ce94b8eeed83)
+
+* Hay que conectar una constante dando click derecho en el VI ReadAI.vi y seleccionar 'Create Constant'
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/0a50edff-593b-4fb6-aec7-7740e40c36f4)
+
+* Crea un indicador para el valor analogico en el lado derecho del VI
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/9f993dd9-e3f4-402b-94bf-2344cdac3703)
+
+* Escribe el programa como la siguiente imagen
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/08b24200-3beb-475f-8bd2-2212003820e8)
+
+_El programa se ejecutara exitosamente, pero, se ejecutara una sola vez, obteniendo solo una lectura del canal analogico seleccionado_
+
+* Para resolver este problema, podemos agregar un ciclo While. Da click derecho para traer la paleta de funciones, luego navega a 'Structures' y selecciona 'While Loop'. Colocalo alrededor de el VI ReadAI.vi y deja espacio para otras funciones
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/60952926-50fc-49d2-8053-e6e6154ae2d2)
+
+* Un ciclo While no funcionara sin una condicion de paro. En muchos casos se utiliza un simple boton boleano, da click derecho en la condicion de paro del While loop y selecciona 'Create Control', esto creara un boton en el panel frontal
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/e0016811-c6ed-4a52-9506-641d6eff7be3)
+
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/c6d726ba-6fed-4946-a9eb-ba4b943fa0ed)
+
+* Puedes ejecutar el programa ahora y al girar las perillas analogicas el valor se mostrara en el panel frontal
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/e9b586b6-9b3f-4b26-a7fb-a0f1f894cdc9)
+
+_Si estas utilizando el hardware fisico, notaras que el valor analogico leido estara brincando de un valor a otro, esto es hasta cierto punto normal y esta relacionado al ruido electromagnetico en el equipo.
+
+* Para tener un mejor aspecto, se puede reemplazar el indicador numerico por un Waveform Chart, el cual desplegara los datos de manera continua, da click derecho en el indicador 'Value', y navega hasta la opcion de reemplazar, aparecera la paleta de controles y ahi podras elegir un waveform Chart
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/492827a5-558b-4301-a19c-5581588ef463)
+
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/ad605cde-82e2-493c-a794-9fafdda85b73)
+
+
 
 # Conceptos Generales
 
