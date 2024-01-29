@@ -36,7 +36,22 @@ Al finalizar, podras ejecutar la maquina virtual dando click en el boton 'Start'
 
 ![image](./assets/OpenVM.png)
 
-> [!NOTE]
 La maquina virtual debera arrancar pero se requiere iniciar como usuario 'root' para poder activar LabVIEW Community, para iniciar como 'root' hay que salir del usuario actual
-> ![image](./assets/VMLogout.png)
-> > ![image](./assets/VMLogoutDialog.png)
+
+![image](./assets/VMLogout.png)
+
+![image](./assets/VMLogoutDialog.png)
+
+Da Click en el usuario actual 'LabVIEW Training' y selecciona 'Other'
+
+![image](./assets/LabVIEWTrainingUser.png)
+
+![image](./assets/RootUser.png)
+
+***Usuario root password: labviewtraining***
+
+Deberas ver lo siguiente
+
+![image](./assets/VMDesktop.png)
+
+
