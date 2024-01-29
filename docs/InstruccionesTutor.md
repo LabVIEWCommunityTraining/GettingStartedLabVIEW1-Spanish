@@ -79,6 +79,6 @@ Para poder utilizar LabVIEW se requiere una cuenta de NI Activa, si no la tiene,
 
 Al abrir LabVIEW deberas dar click en el boton 'Activate LabVIEW Community Edition'
 
-[!image](./assets/ActivateLabVIEW.png)
+![image](./assets/ActivateLabVIEW.png)
 
 Esto cargara el sitio de activacion utilizando Firefox
