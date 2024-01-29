@@ -24,3 +24,19 @@ Encuentra el archivo .OVA previamente descargado y presiona el boton Next
 
 ![image](./assets/VirtualBoxOVA.png)
 
+De ser necesario revisa las settings de la maquina virtual.
+
+![image](./assets/ApplianceSettings.png)
+
+Presiona el boton de 'Finish' y la imagen .OVA se importara y aparecera como una nueva maquina virtua.
+
+![image](./assets/OVAImport.png)
+
+Al finalizar, podras ejecutar la maquina virtual dando click en el boton 'Start'
+
+![image](./assets/OpenVM.png)
+
+> [!NOTE]
+La maquina virtual debera arrancar pero se requiere iniciar como usuario 'root' para poder activar LabVIEW Community, para iniciar como 'root' hay que salir del usuario actual
+> ![image](./assets/VMLogout.png)
+> > ![image](./assets/VMLogoutDialog.png)
