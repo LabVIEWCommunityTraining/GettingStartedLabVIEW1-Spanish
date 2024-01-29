@@ -54,4 +54,22 @@ Deberas ver lo siguiente
 
 ![image](./assets/VMDesktop.png)
 
+## Configurando el Teclado
+
+Para cambiar el teclado a otro idioma, abre el menu de inicio y selecciona Settings>>Keyboard
+
+![image](./assets/KeyboardSetup.png)
+
+Selecciona el teclado que te sea de mayor utilidad
+
+![image](./assets/KeyboardSelection.png)
+
+# Cargar y activar LabVIEW
+
+Para poder utilizar LabVIEW se requiere una cuenta de NI Activa, si no la tiene, favor de sacar una en:
+
+[NI](https://www.ni.com/es.html)
+
+![image](./assets/NIAccount1.png)
+
 
