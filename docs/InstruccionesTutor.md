@@ -14,6 +14,8 @@ Visita el sitio:
 
 Visita el sitio de GCentral para descargar una imagen de maquina virtual que contiene LabVIEW previamente instalado:
 
+[GCentral - Community Training Initiative](https://www.gcentral.org/g-community-resources/community-training-image)
+
 ![image](./assets/GCentralmage.png)
 
 Una vez descargado ve a Virtual Box al menu File>>Import Appliance into Virtualbox o bien presiona Ctrl+I
@@ -68,8 +70,15 @@ Selecciona el teclado que te sea de mayor utilidad
 
 Para poder utilizar LabVIEW se requiere una cuenta de NI Activa, si no la tiene, favor de sacar una en:
 
-[NI](https://www.ni.com/es.html)
+[NI Website](https://www.ni.com/es.html)
 
 ![image](./assets/NIAccount1.png)
 
 
+![image](./assets/NIAccount.png)
+
+Al abrir LabVIEW deberas dar click en el boton 'Activate LabVIEW Community Edition'
+
+[!image](./assets/ActivateLabVIEW.png)
+
+Esto cargara el sitio de activacion utilizando Firefox
