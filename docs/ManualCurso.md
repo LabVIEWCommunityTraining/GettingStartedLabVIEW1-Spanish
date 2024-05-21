@@ -441,6 +441,10 @@ _Si estas utilizando el hardware fisico, notaras que el valor analogico leido es
 
 # Conceptos Generales
 
+Estructura de Eventos
+
+![images](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/8924865a-c498-4692-8043-f086643a0607)
+
 # Tipos de Datos
 
 # Ciclos While
