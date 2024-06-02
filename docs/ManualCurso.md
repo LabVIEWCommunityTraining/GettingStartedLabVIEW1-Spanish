@@ -443,6 +443,26 @@ Sin embargo, también es posible reemplazar el indicador numérico por un Wavefo
 
 # Conceptos Generales
 
+## VIs (Virtual Instruments / Instrumentos Virtuales)
+
+Los programas en LabVIEW se denominan VI (Instrumentos virtuales). En otros lenguajes de programación, un VI es similar a una función o una subrutina. Un VI incluye un Panel Frontal y un Diagrama de Bloques, el ícono del VI y su Panel de Conectores.
+
+### Panel Frontal
+
+La ventana del panel frontal es la interfaz de usuario del VI. Usted crea la ventana con controles e indicadores, estos son los terminales interactivos de entrada y salida del VI.
+
+### Diagrama de Bloques
+
+El diagrama de bloques es donde creará el código para su programa. El diagrama de bloques implementará representaciones gráficas de funciones para controlar los objetos en el panel frontal. Los objetos en el panel frontal aparecerán como terminales en el diagrama de bloques.
+
+### Íconos, Panel de Conectores, y SubVIs
+
+El ícono y panel de conectores le permite usar y ver el VI en otro VI. Esto se llama SubVI; para utilizar un SubVI debe crear un panel conector. Se recomienda personalizar el ícono para ayudar a leer y comprender el programa.
+
+* El ícono se muestra en la esquina superior derecha del VI, es una representación gráfica del VI. El ícono se puede personalizar con texto e imágenes para ayudar a identificar lo que hace el VI.
+
+* El panel de conectores es un conjunto de terminales en el ícono que corresponde a los controles e indicadores del VI.
+
 # Tipos de Datos
 
 # Ciclos While
