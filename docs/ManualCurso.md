@@ -5,7 +5,7 @@
 * [Lección 2 – Ciclos For (For Loops)](#lección-2---ciclos-for-for-loops)
 * [Lección 3 – Ciclos While (While Loop)](#lección-3---ciclos-while---while-loops)
 * [Lección 4 – Estructura de Eventos (Event Structure)](#lección-4---estructura-de-eventos---event-structure)
-* [Lección 5 – Numeros, Graficas y Charts](#lección-5---numeros-gráficas-y-charts)
+* [Lección 5 – Numeros, Graficas y Charts](#lección-5---números-gráficas-y-tablas)
 * [Conceptos Generales](#conceptos-generales)
 * [Tipos de Datos](#tipos-de-datos)
 * [Ciclos While - While Loops](#ciclos-while)
@@ -273,7 +273,6 @@ Conecte el VI Initialize.vi y el VI Close.vi a través de la Estructura del Even
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/5f2b924e-e26b-452e-824d-c8fa1420b310)
 
-
 Agregue un nuevo caso de evento haciendo clic derecho en la etiqueta del selector y seleccione "Add Event Case".
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/eabaf06e-5cef-4096-bd08-cc7a2040c960)
@@ -292,17 +291,13 @@ Cambie la salida de "NO DO - Error" a "DO1" haciendo clic en la flecha desplegab
 
 A continuación necesitamos agregar un botón para la Salida Digital. Vaya al Panel Frontal y haga clic derecho en cualquier lugar para abrir la Paleta de Controles. Pase el cursor sobre "Boolean" y seleccione "Push Button"
 
-
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/6f69a3fb-3296-474f-b7a6-3ab3a3e7bf20)
 
 Conecte el nuevo control booleano al terminal 'DO Value'
 
-
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/3d3a1c4a-8979-4b19-a65d-90c390ca4e29)
 
-
 Haga clic derecho en el selector de etiquetas, y seleccione "Edit Events Handled by This Case", pues necesitamos editar los eventos manejados por cada caso.
-
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/f4f668c1-ad34-45ca-be7a-d92124c4b1ba)
 
@@ -373,10 +368,11 @@ Conecte la constante a la condición de ciclo, como se muestra en la imagen a co
 
 El programa ahora se ejecutará exitosamente. Podrá encender y apagar los LED tantas veces como quieras. Puede utilizar el botón Stop para detener la ejecución del programa.
 
-# Lección 5 - Numeros, Gráficas y Charts
+# Lección 5 - Números, Gráficas y Tablas
 
 Opcional: Configuración del Hardware
-Conecta el hardware de la siguiente manera:
+
+Conecte el hardware de la siguiente manera:
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/97fc78a9-7876-422d-b74a-c75400bb1ffb)
 
@@ -439,7 +435,60 @@ Sin embargo, también es posible reemplazar el indicador numérico por un Wavefo
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/ad605cde-82e2-493c-a794-9fafdda85b73)
 
+### Salida Analógica (Escribir) (Analog Output (Write))
 
+Opcional: Configuración del hardware
+
+Conecte el hardware de la siguiente manera:
+
+![hardware11](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/e2d09cf8-9d9a-42c6-856b-ab1556fd6501)
+
+![hardware12](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/2a85e681-fe25-4d1a-82bb-7e160b9e881f)
+
+Comienze con un diagrama de bloques con Initialize.vi y Close.vi. Haga clic derecho para abrir la Paleta de Funciones. Siga la imagen a continuación y agregue WriteAO.vi al diagrama.
+
+Conecte los 3 VIs entre sí.
+
+Haga clic derecho en la terminal 'Analog Output' y cree una constante. Para este ejercicio, la salida analógica producirá 2 datos numéricos diferentes, por lo tanto, 2 constantes se agruparán. 
+
+Necesitará crear un Paquete (Bundle). Haga clic derecho en el diagrama de bloques para abrir la Paleta de Funciones, coloque el cursor sobre 'Cluster, Class & Variant', luego seleccione 'Bundle By Name'.
+
+Elimine el cable conectado al subVI, ya que necesita conectarse al paquete que construyó anteriormente.
+
+Cablee el paquete como se muestra en la siguiente imagen.
+
+Una vez conectado el paquete, notará que el paquete tiene la etiqueta "Duty". Expanda el paquete hacia abajo para que la etiqueta "Frequency" sea visible.
+
+Haga clic derecho en el borde del paquete y cree Constantes para "Duty" y "Frequency".
+
+El panel frontal debería verse como la imagen a continuación. Sin embargo, aún necesita algunos ajustes.
+
+_Usar el "Control numérico" (Numeric Control) puede resultar un poco complicado cuando se ejecuta el programa, por lo que en este caso los cambiará por "Desplazamientos de puntero vertical" (Vertical Pointer Slides)._
+
+Haga clic derecho en el control "Duty" y coloque el cursor sobre "Replace". Seleccione "Numeric" y luego "Vertical Pointer Slide". Haga lo mismo con el control "Frequency".
+
+Deberá cambiar la escala del control deslizante "Frequency". Haga clic derecho en el control deslizante, seleccione "Scale", "Mapping" y luego "Logarithmic".
+
+_Una escala logarítmica es útil cuando los datos que se muestran son mucho menores o mucho mayores que el resto de los datos, o cuando las diferencias porcentuales entre valores son importantes._
+
+El control deslizante "Duty" puede permanecer como una escala lineal.
+
+Ahora necesita configurar los puntos superiores e inferiores en los controles deslizantes. Sólo necesitará cambiar el punto más alto por 'Duty'. Configúrelo en '1'.
+Para "Frequency", el punto más bajo debe ser "10" y el más alto "500,000".
+
+_Ahora volvamos al diagrama de bloques y terminemos de construir el programa._
+
+Abra la paleta de funciones haciendo clic derecho en el diagrama de bloques, coloque el cursor sobre 'Structures' y seleccione un ciclo For. Coloque el ciclo For alrededor de WriteAO.vi.
+
+Un ciclos For necesita un 'Conteo de ciclos'. Elija un número que le permita usar los diales y ver cómo se ejecuta en el Waveform Chart.
+
+Necesitará reducir la velocidad del programa antes de ejecutarlo. Abra la paleta de funciones, seleccione "Timing" y coloque la función "Wait (ms)" dentro del ciclo For.
+
+Haga clic derecho en la terminal izquierda en la función "Wait (ms)" y cree una Constante. Escriba "100". Esto ralentizará el programa lo suficiente como para que pueda ver los resultados.
+
+Ahora puede ejecutar su programa. Mueva los controles deslizantes hacia arriba y hacia abajo y los resultados se mostrarán en el emulador.
+
+### Salida Analógica (Leer) (Analog Output (Read))
 
 # Conceptos Generales
 
