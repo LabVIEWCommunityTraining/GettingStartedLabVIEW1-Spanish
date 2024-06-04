@@ -449,31 +449,53 @@ Conecte el hardware de la siguiente manera:
 
 Comienze con un diagrama de bloques con Initialize.vi y Close.vi. Haga clic derecho para abrir la Paleta de Funciones. Siga la imagen a continuación y agregue WriteAO.vi al diagrama.
 
+![write1](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/806f357a-c6ef-487e-a211-d32d1ecb2c60)
+
 Conecte los 3 VIs entre sí.
 
 Haga clic derecho en la terminal 'Analog Output' y cree una constante. Para este ejercicio, la salida analógica producirá 2 datos numéricos diferentes, por lo tanto, 2 constantes se agruparán. 
 
+![write2](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/d71933c7-da7a-4e58-bdc8-7773d214ca9b)
+
 Necesitará crear un Paquete (Bundle). Haga clic derecho en el diagrama de bloques para abrir la Paleta de Funciones, coloque el cursor sobre 'Cluster, Class & Variant', luego seleccione 'Bundle By Name'.
+
+![write3](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/d49d8f5d-0a68-44a1-a12f-3e17cac1d461)
 
 Elimine el cable conectado al subVI, ya que necesita conectarse al paquete que construyó anteriormente.
 
+![write4](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/81585f55-4a2a-4b66-9097-0ac6f67d814b)
+
 Cablee el paquete como se muestra en la siguiente imagen.
+
+![write5](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/c5711d42-5879-4ace-9fdb-e20bf23b98b4)
 
 Una vez conectado el paquete, notará que el paquete tiene la etiqueta "Duty". Expanda el paquete hacia abajo para que la etiqueta "Frequency" sea visible.
 
+![write6](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/ff8dc898-363e-48aa-a6a4-eb1a6d3dbff8)
+
 Haga clic derecho en el borde del paquete y cree Constantes para "Duty" y "Frequency".
 
+![write7](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/72a13f73-9f4b-482f-bc20-ad30f1928b17)
+
 El panel frontal debería verse como la imagen a continuación. Sin embargo, aún necesita algunos ajustes.
+
+![write8](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/d9268383-5320-4de1-bf40-1e675201983b)
 
 _Usar el "Control numérico" (Numeric Control) puede resultar un poco complicado cuando se ejecuta el programa, por lo que en este caso los cambiará por "Desplazamientos de puntero vertical" (Vertical Pointer Slides)._
 
 Haga clic derecho en el control "Duty" y coloque el cursor sobre "Replace". Seleccione "Numeric" y luego "Vertical Pointer Slide". Haga lo mismo con el control "Frequency".
 
+![write10](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/00963db7-38ae-4916-96ec-c074afe94d62)![write9](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/33b8cfdb-92c3-4b5b-9cdc-c89ddb3aba57)
+
 Deberá cambiar la escala del control deslizante "Frequency". Haga clic derecho en el control deslizante, seleccione "Scale", "Mapping" y luego "Logarithmic".
+
+![write11](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/e097f68b-d8e1-4144-856a-cf09751952cd)
 
 _Una escala logarítmica es útil cuando los datos que se muestran son mucho menores o mucho mayores que el resto de los datos, o cuando las diferencias porcentuales entre valores son importantes._
 
 El control deslizante "Duty" puede permanecer como una escala lineal.
+
+![write12](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/5c6eb014-cdea-4bc6-a8fc-3baad338e7fb)![write13](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/0f4d6492-d187-4df0-a581-0b68276cf47c)
 
 Ahora necesita configurar los puntos superiores e inferiores en los controles deslizantes. Sólo necesitará cambiar el punto más alto por 'Duty'. Configúrelo en '1'.
 Para "Frequency", el punto más bajo debe ser "10" y el más alto "500,000".
@@ -482,15 +504,45 @@ _Ahora volvamos al diagrama de bloques y terminemos de construir el programa._
 
 Abra la paleta de funciones haciendo clic derecho en el diagrama de bloques, coloque el cursor sobre 'Structures' y seleccione un ciclo For. Coloque el ciclo For alrededor de WriteAO.vi.
 
+![write14](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/e207a1ad-bc2b-40c0-9651-b2b032caa5fe)
+
 Un ciclos For necesita un 'Conteo de ciclos'. Elija un número que le permita usar los diales y ver cómo se ejecuta en el Waveform Chart.
+
+![write15](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/7fcf0539-ec42-4861-bbb5-87d72b85ffa3)
 
 Necesitará reducir la velocidad del programa antes de ejecutarlo. Abra la paleta de funciones, seleccione "Timing" y coloque la función "Wait (ms)" dentro del ciclo For.
 
+![write16](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/3fa4a826-595b-4207-8842-1a3ccf7fdd91)
+
 Haga clic derecho en la terminal izquierda en la función "Wait (ms)" y cree una Constante. Escriba "100". Esto ralentizará el programa lo suficiente como para que pueda ver los resultados.
+
+![write17](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/79899d6c-3548-468b-aacc-bfba6d7678bc)
 
 Ahora puede ejecutar su programa. Mueva los controles deslizantes hacia arriba y hacia abajo y los resultados se mostrarán en el emulador.
 
+![write18](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/92fa3eaa-9ea6-4e79-aa5a-8f9eeaa4b309)
+
+
 ### Salida Analógica (Leer) (Analog Output (Read))
+
+Si desea una representación más precisa de los controles deslizantes "Duty" y "Frequency", puede utilizar ReadAOs.vi.
+
+Coloque ReadAOs.vi dentro del ciclo For repitiendo el mismo proceso que aprendió al comienzo de la lección 'Analog Ouput (Write)'.
+
+![read1](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/7f04b95c-2b29-44c6-91de-59639af2ac97)
+
+Conecte el subVI como se muestra en la imagen a continuación. Haga clic derecho en la terminal 'AnalogOutput' y cree una constante, luego cree un indicador para 'AnOutValues'.
+
+![read2](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/531043f8-d2c0-4c48-a370-1b3f8ae97365)
+
+Ahora puede ejecutar el programa y verá los valores de "Duty" y "Frequency" en el Panel Frontal.
+
+![read3](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/72a8623e-cab4-4cb7-a0bb-db045d896c4b)
+
+_Si está utilizando el Simulador, los valores de ambos aparecerán en el Emulador._
+
+![read4](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/ad7fac14-7f47-4e37-ac02-209410818c0f)
+
 
 # Conceptos Generales
 
@@ -514,13 +566,9 @@ El ícono y panel de conectores le permite usar y ver el VI en otro VI. Esto se 
 
 * El panel de conectores es un conjunto de terminales en el ícono que corresponde a los controles e indicadores del VI.
 
-Ícono
+Ícono                 Panel de Conectores
 
-![icon1](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/565f97eb-39d3-45c6-a4e7-9859697ebd75)
-
-Panel de Conectores
-
-![icon2](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/2b383660-8e69-492e-b5f2-3a9884b9e0ba)
+![icon1](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/565f97eb-39d3-45c6-a4e7-9859697ebd75)![icon2](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/2b383660-8e69-492e-b5f2-3a9884b9e0ba)
 
 ## Tipos de Datos
 
