@@ -6,7 +6,9 @@
 * [Lección 3 – Ciclos While (While Loop)](#lección-3---ciclos-while---while-loops)
 * [Lección 4 – Estructura de Eventos (Event Structure)](#lección-4---estructura-de-eventos---event-structure)
 * [Lección 5 – Números, Gráficas y Tablas](#lección-5---números-gráficas-y-tablas)
-  * [Entrada Analógica (Analog Input)](#entrada-analógica-(analog-input))
+  * [Entrada Analógica (Analog Input)]
+  * [Salida Analógica (Escribir) (Analog Output (Write))]
+  * [Salida Analógica (Leer) (Analog Output (Read))]
 * [Conceptos Generales](#conceptos-generales)
   * [VIs (Virtual Instruments / Instrumentos Virtuales)](#vis-(virtual-instruments-/-instrumentos-virtuales))
   * [Tipos de Datos](#tipos-de-datos)
@@ -566,9 +568,13 @@ El ícono y panel de conectores le permite usar y ver el VI en otro VI. Esto se 
 
 * El panel de conectores es un conjunto de terminales en el ícono que corresponde a los controles e indicadores del VI.
 
-Ícono                 Panel de Conectores
+Ícono
 
-![icon1](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/565f97eb-39d3-45c6-a4e7-9859697ebd75)![icon2](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/2b383660-8e69-492e-b5f2-3a9884b9e0ba)
+![icon1](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/565f97eb-39d3-45c6-a4e7-9859697ebd75)
+
+Panel de Conectores
+
+![icon2](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/2b383660-8e69-492e-b5f2-3a9884b9e0ba)
 
 ## Tipos de Datos
 
