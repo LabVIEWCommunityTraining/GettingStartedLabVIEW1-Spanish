@@ -7,7 +7,7 @@
 * [Lección 4 – Estructura de Eventos (Event Structure)](#lección-4---estructura-de-eventos---event-structure)
 * [Lección 5 – Números, Gráficas y Tablas](#lección-5---números-gráficas-y-tablas)
   * [Entrada Analógica (Analog Input)](#entrada-analógica-analog-input)
-  * [Salida Analógica (Escribir) (Analog Output (Write))]
+  * [Salida Analógica (Escribir) (Analog Output (Write))](#salida-analógica-escribir-analog-output-write)
   * [Salida Analógica (Leer) (Analog Output (Read))]
 * [Conceptos Generales](#conceptos-generales)
   * [VIs (Virtual Instruments / Instrumentos Virtuales)](#vis-(virtual-instruments-/-instrumentos-virtuales))
