@@ -463,7 +463,22 @@ El ícono y panel de conectores le permite usar y ver el VI en otro VI. Esto se 
 
 * El panel de conectores es un conjunto de terminales en el ícono que corresponde a los controles e indicadores del VI.
 
-# Tipos de Datos
+## Tipos de Datos
+
+Cada variable de un programa debe tener un tipo de datos. Los tipos de datos determinan qué tipo de valor contendrá la variable.
+
+Los tipos de variables son los siguientes:
+
+* Numéricas:
+  * Entera (int) - números enteros (por ejemplo, -700, 0, 700)
+  * De punto flotante (float) - números con fracciones o decimales (por ejemplo, 700.0, 0.7)
+* Booleana - representa dos estados (por ejemplo, verdadero o falso, 1 o 0)
+* Texto (String) - secuencia de caracteres, dígitos y símbolos - siempre tratado como texto (por ejemplo, 'hola')
+* Tipo enumerado - valores únicos predefinidos (pueden ser números o textos) (por ejemplo, rock (0) jazz (1))
+* Carácter - una sola letra, dígito, signo de puntuación, símbolo o espacio en blanco
+* Arreglo - almacena múltiples elementos en un orden específico. Nota: negro significa que no se seleccionó ningún tipo de datos. Coloque otro tipo de datos en la matriz para crear una matriz de ese tipo de datos.
+
+_Nota: haga clic derecho en un terminal de tipo de datos y seleccione 'Ver como icono' según su preferencia. (La segunda fila muestra los terminales como iconos)._
 
 # Ciclos While
 
