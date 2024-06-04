@@ -463,6 +463,12 @@ El ícono y panel de conectores le permite usar y ver el VI en otro VI. Esto se 
 
 * El panel de conectores es un conjunto de terminales en el ícono que corresponde a los controles e indicadores del VI.
 
+Icon
+![icon1](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/565f97eb-39d3-45c6-a4e7-9859697ebd75)
+
+Panel de Conectores
+![icon2](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/2b383660-8e69-492e-b5f2-3a9884b9e0ba)
+
 ## Tipos de Datos
 
 Cada variable de un programa debe tener un tipo de datos. Los tipos de datos determinan qué tipo de valor contendrá la variable.
@@ -470,17 +476,26 @@ Cada variable de un programa debe tener un tipo de datos. Los tipos de datos det
 Los tipos de variables son los siguientes:
 
 * Numéricas:
-  * Entera (int) - números enteros (por ejemplo, -700, 0, 700)
-  * De punto flotante (float) - números con fracciones o decimales (por ejemplo, 700.0, 0.7)
-* Booleana - representa dos estados (por ejemplo, verdadero o falso, 1 o 0)
-* Texto (String) - secuencia de caracteres, dígitos y símbolos - siempre tratado como texto (por ejemplo, 'hola')
-* Tipo enumerado - valores únicos predefinidos (pueden ser números o textos) (por ejemplo, rock (0) jazz (1))
-* Carácter - una sola letra, dígito, signo de puntuación, símbolo o espacio en blanco
+  * Entera (int) - números enteros (por ejemplo, -700, 0, 700).
+  * De punto flotante (float) - números con fracciones o decimales (por ejemplo, 700.0, 0.7).
+* Booleana - representa dos estados (por ejemplo, verdadero o falso, 1 o 0).
+* Texto (String) - secuencia de caracteres, dígitos y símbolos - siempre tratado como texto (por ejemplo, 'hola').
+* Tipo enumerado - valores únicos predefinidos (pueden ser números o textos) (por ejemplo, rock (0) jazz (1)).
+* Carácter - una sola letra, dígito, signo de puntuación, símbolo o espacio en blanco.
 * Arreglo - almacena múltiples elementos en un orden específico. Nota: negro significa que no se seleccionó ningún tipo de datos. Coloque otro tipo de datos en la matriz para crear una matriz de ese tipo de datos.
+
+![data_types](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/e5dabf86-4dfb-4ac6-b5a6-ddcc5a4d5e2f)
 
 _Nota: haga clic derecho en un terminal de tipo de datos y seleccione 'Ver como icono' según su preferencia. (La segunda fila muestra los terminales como iconos)._
 
-# Ciclos While
+## Ciclos While
+
+Los ciclos While permiten que partes de un programa se ejecuten repetidamente hasta que se cumpla una determinada condición.
+
+![whileloop](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/bcdcfa2e-3570-403c-ace4-bf011538f566)
+
+1. Terminal de Iteración - la terminal de iteración provee la iteración del ciclo actual
+2. Terminal Condicional - evalúa un valor de entrada **booleano** al final de cada iteración del ciclo, si la terminal condicional se cumple entonces el ciclo termina.
 
 # Ciclos For
 
