@@ -463,10 +463,12 @@ El ícono y panel de conectores le permite usar y ver el VI en otro VI. Esto se 
 
 * El panel de conectores es un conjunto de terminales en el ícono que corresponde a los controles e indicadores del VI.
 
-Icon
+Ícono
+
 ![icon1](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/565f97eb-39d3-45c6-a4e7-9859697ebd75)
 
 Panel de Conectores
+
 ![icon2](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/2b383660-8e69-492e-b5f2-3a9884b9e0ba)
 
 ## Tipos de Datos
@@ -497,11 +499,24 @@ Los ciclos While permiten que partes de un programa se ejecuten repetidamente ha
 1. Terminal de Iteración - la terminal de iteración provee la iteración del ciclo actual
 2. Terminal Condicional - evalúa un valor de entrada **booleano** al final de cada iteración del ciclo, si la terminal condicional se cumple entonces el ciclo termina.
 
-# Ciclos For
+## Ciclos For
 
-# Estructuras de Eventos
+Un ciclo For ejecuta un subdiagrama un determinado número de veces. Este valor está conectado al terminal de conteo (N).
 
+![forloop](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/db48ddca-3500-4775-86c7-40626695c42d)
 
+1. Ciclo de Iteración - indica el número de iteraciones completadas
+2. Terminal de Conteo - Especifíca el número de veces que se ejecutará el código dentro del ciclo For
+
+## Estructuras de Eventos
+
+Una estructura de eventos espera a que un evento ocurra, y luego ejecuta el caso apropiado para manejar ese evento.
+
+![eventstr](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/7793640a-caf6-46ca-918a-ee7bfc2b0f08)
+
+1. La etiqueta del selector de eventos especifica qué eventos hacen que se ejecute el caso mostrado.
+2. Las terminales de tiempo de espera especifican el número de milisegundos que se deben esperar por un evento antes de que se agote el tiempo.
+3. El Nodo de Datos del Evento identifica los datos que LabVIEW devuelve cuando ocurre un evento.
 
 
 
