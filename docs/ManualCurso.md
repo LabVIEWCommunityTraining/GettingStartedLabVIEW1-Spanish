@@ -6,7 +6,7 @@
 * [Lección 3 – Ciclos While (While Loop)](#lección-3---ciclos-while---while-loops)
 * [Lección 4 – Estructura de Eventos (Event Structure)](#lección-4---estructura-de-eventos---event-structure)
 * [Lección 5 – Números, Gráficas y Tablas](#lección-5---números-gráficas-y-tablas)
-  * [Entrada Analógica (Analog Input)]
+  * [Entrada Analógica (Analog Input)](#entrada-analógica-analog-input)
   * [Salida Analógica (Escribir) (Analog Output (Write))]
   * [Salida Analógica (Leer) (Analog Output (Read))]
 * [Conceptos Generales](#conceptos-generales)
