@@ -10,7 +10,7 @@
   * [Salida Analógica (Escribir) (Analog Output (Write))](#salida-analógica-escribir-analog-output-write)
   * [Salida Analógica (Leer) (Analog Output (Read))](#salida-analógica-leer-analog-output-read)
 * [Conceptos Generales](#conceptos-generales)
-  * [VIs (Virtual Instruments / Instrumentos Virtuales)](#vis-virtual-instruments-instrumentos-virtuales)
+  * [VIs (Virtual Instruments) (Instrumentos Virtuales)](#vis-virtual-instruments-instrumentos-virtuales)
   * [Tipos de Datos](#tipos-de-datos)
   * [Ciclos While - While Loops](#ciclos-while)
   * [Ciclos For - For Loops](#ciclos-for)
@@ -548,7 +548,7 @@ _Si está utilizando el Simulador, los valores de ambos aparecerán en el Emulad
 
 # Conceptos Generales
 
-## VIs (Virtual Instruments / Instrumentos Virtuales)
+## VIs (Virtual Instruments) (Instrumentos Virtuales)
 
 Los programas en LabVIEW se denominan VI (Instrumentos virtuales). En otros lenguajes de programación, un VI es similar a una función o una subrutina. Un VI incluye un Panel Frontal y un Diagrama de Bloques, el ícono del VI y su Panel de Conectores.
 
