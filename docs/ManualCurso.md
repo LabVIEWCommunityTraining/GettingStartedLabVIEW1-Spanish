@@ -8,9 +8,9 @@
 * [Lección 5 – Números, Gráficas y Tablas](#lección-5---números-gráficas-y-tablas)
   * [Entrada Analógica (Analog Input)](#entrada-analógica-analog-input)
   * [Salida Analógica (Escribir) (Analog Output (Write))](#salida-analógica-escribir-analog-output-write)
-  * [Salida Analógica (Leer) (Analog Output (Read))]
+  * [Salida Analógica (Leer) (Analog Output (Read))](#salida-analógica-leer-analog-output-read)
 * [Conceptos Generales](#conceptos-generales)
-  * [VIs (Virtual Instruments / Instrumentos Virtuales)](#vis-(virtual-instruments-/-instrumentos-virtuales))
+  * [VIs (Virtual Instruments / Instrumentos Virtuales)](#vis-virtual-instruments-instrumentos-virtuales)
   * [Tipos de Datos](#tipos-de-datos)
   * [Ciclos While - While Loops](#ciclos-while)
   * [Ciclos For - For Loops](#ciclos-for)
