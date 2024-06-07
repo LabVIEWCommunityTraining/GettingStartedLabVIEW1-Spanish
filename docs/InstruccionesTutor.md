@@ -1,84 +1,98 @@
 # Instrucciones para tutor
 
-[Inicio](./index.html)
+* [Inicio](./index.html)
+* [Instalar VirtualBox]
+* [Importar Máquina Virtual (VM)]
+* [Configurar el Teclado]
+* [Cargar y Activar LabView]
+* [Instalar Materiales del Curso]
+* [Instalar Drivers]
+* [Hacer que Emulador.exe corra en Linux]
+* [Configurar Firmware del RPi Pico]
+* [Conectar y Probar el RPi Pico]
+* [Hardware]
+* [Software de Soporte]
 
-## Instalación de Virtual Box
+## Instalar VirtualBox
 
-Visita el sitio:
+Visite el sitio:
 
 [Virtual Box Downloads](https://www.virtualbox.org/wiki/Downloads)
 
-* Descarga la última versión e instálala.
+* Descargue la última versión e instálela.
 
 ![image](./assets/VirtualBox.png)
 
-Visita el sitio de GCentral para descargar una imagen de maquina virtual que contiene LabVIEW previamente instalado:
+## Importar Máquina Virtual (VM)
+
+Visite el sitio de GCentral para descargar una imagen de máquina virtual que contiene LabVIEW previamente instalado:
 
 [GCentral - Community Training Initiative](https://www.gcentral.org/g-community-resources/community-training-image)
 
 ![image](./assets/GCentralmage.png)
 
-Una vez descargado ve a Virtual Box al menu File>>Import Appliance into Virtualbox o bien presiona Ctrl+I
+Una vez descargado, vaya a Virtual Box, al menú **File >> Import Appliance into Virtualbox**, o bien presione **Ctrl+I**.
 
 ![image](./assets/VirtualBoxImportAppliance.png)
 
-Encuentra el archivo .OVA previamente descargado y presiona el boton Next
+Encuentre el archivo .OVA previamente descargado y presiona el botón Next.
 
 ![image](./assets/VirtualBoxOVA.png)
 
-De ser necesario revisa las settings de la maquina virtual.
+De ser necesario revise los Settings de la máquina virtual.
 
 ![image](./assets/ApplianceSettings.png)
 
-Presiona el boton de 'Finish' y la imagen .OVA se importara y aparecera como una nueva maquina virtua.
+Presione el boton de 'Finish' y la imagen .OVA se importará y aparecerá como una nueva máquina virtual.
 
 ![image](./assets/OVAImport.png)
 
-Al finalizar, podras ejecutar la maquina virtual dando click en el boton 'Start'
+Al finalizar, podrá ejecutar la máquina virtual haciendo click en el botón 'Start'.
 
 ![image](./assets/OpenVM.png)
 
-La maquina virtual debera arrancar pero se requiere iniciar como usuario 'root' para poder activar LabVIEW Community, para iniciar como 'root' hay que salir del usuario actual
+La máquina virtual deberá arrancar, pero se requiere iniciar como usuario 'root' para poder activar LabVIEW Community, para iniciar como 'root' hay que salir del usuario actual
 
 ![image](./assets/VMLogout.png)
 
 ![image](./assets/VMLogoutDialog.png)
 
-Da Click en el usuario actual 'LabVIEW Training' y selecciona 'Other'
+Haga click en el usuario actual 'LabVIEW Training' y seleccione 'Other'.
 
 ![image](./assets/LabVIEWTrainingUser.png)
 
 ![image](./assets/RootUser.png)
 
-***Usuario root password: labviewtraining***
+Usuario: **root** 
 
-Deberas ver lo siguiente
+Password: **labviewtraining**
+
+Deberá ver lo siguiente:
 
 ![image](./assets/VMDesktop.png)
 
-## Configurando el Teclado
+## Configurar del Teclado
 
-Para cambiar el teclado a otro idioma, abre el menu de inicio y selecciona Settings>>Keyboard
+Para cambiar el teclado a otro idioma, abra el menu de Inicio y seleccione Settings >> Keyboard.
 
 ![image](./assets/KeyboardSetup.png)
 
-Selecciona el teclado que te sea de mayor utilidad
+Selecciona el teclado que le sea de mayor utilidad.
 
 ![image](./assets/KeyboardSelection.png)
 
-# Cargar y activar LabVIEW
+# Cargar y Activar LabVIEW
 
-Para poder utilizar LabVIEW se requiere una cuenta de NI Activa, si no la tiene, favor de sacar una en:
+Para poder activar la licencia de LabView Community Edition, se requiere una cuenta de NI activa. Si no la tiene, cree una en:
 
-[NI Website](https://www.ni.com/es.html)
+[Página Web de NI](https://www.ni.com/es.html)
 
 ![image](./assets/NIAccount1.png)
 
-
 ![image](./assets/NIAccount.png)
 
-Al abrir LabVIEW deberas dar click en el boton 'Activate LabVIEW Community Edition'
+Al abrir LabVIEW, deberá dar click en el botón 'Activate LabVIEW Community Edition'.
 
 ![image](./assets/ActivateLabVIEW.png)
 
-Esto cargara el sitio de activacion utilizando Firefox
+Esto cargará el sitio de activación utilizando Firefox.
