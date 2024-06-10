@@ -7,7 +7,7 @@
 * [Cargar y Activar LabView](#cargar-y-activar-labview)
 * [Instalar Materiales del Curso](#instalar-materiales-del-curso)
 * [Instalar Drivers](#instalar-drivers)
-* [Hacer que Emulador.exe corra en Linux](#hacer-que-emulador.exe-corra-en-linux)
+* [Hacer que Emulador.exe corra en Linux](#hacer-que-emulador-exe-corra-en-linux)
 * [Configurar Firmware del RPi Pico](#configurar-firmware-del-rpi-pico)
 * [Conectar y Probar el RPi Pico](#conectar-y-probar-el-rpi-pico)
 * [Hardware](#hardware)
@@ -117,7 +117,7 @@ Extraiga el archivo en /root/Desktop.
 
 Debería de tener un escritorio similar a este:
 
-## Instalar Materiales del Curso
+## Instalar Drivers
 
 Abra **../4) LabView Instrument Drivers** en una ventana.
 
