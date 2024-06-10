@@ -7,7 +7,7 @@
 * [Cargar y Activar LabView](#cargar-y-activar-labview)
 * [Instalar Materiales del Curso](#instalar-materiales-del-curso)
 * [Instalar Drivers](#instalar-drivers)
-* [Hacer que Emulador.exe corra en Linux](#hacer-que-emulador-exe-corra-en-linux)
+* [Hacer que el Emulador corra en Linux](#hacer-que-el-emulador-corra-en-linux)
 * [Configurar Firmware del RPi Pico](#configurar-firmware-del-rpi-pico)
 * [Conectar y Probar el RPi Pico](#conectar-y-probar-el-rpi-pico)
 * [Hardware](#hardware)
@@ -97,25 +97,43 @@ Al abrir LabVIEW, deberá dar click en el botón 'Activate LabVIEW Community Edi
 
 Esto cargará el sitio de activación utilizando Firefox.
 
+![cargarlabview1](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/6736731b-9a83-4994-864f-93a8d5d57fd5)
+
 Ingrese los detalles de su cuenta de usuario y la licencia de LabView se activará.
 
 Si quiere remover una licencia, el archivo .lc se puede encontra en **/root/natinst/.config/LabView-2022/**.
+
+![cargarlabview2](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/b5e63fa2-f7a7-4595-8769-89753523518a)
 
 LabVIEW ahora se cargará normalmente. 
 
 ## Instalar Materiales del Curso
 
+![materiales1](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/c43c2bb1-4db3-43ac-9227-a373ddbbfdfa)
+
 Hemos modificado la ventana de introducción, este enlace le llevará al repositorio de Github de CTI (Community Training Initiative).
+
+![materiales2](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/c8c0c8f8-4b1e-4fde-940b-ab1dbf77d80b)
 
 Seleccione el curso que desea dar.
 
+![materiales3](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/818632c1-1ee0-46c1-9fd8-11f3638e112b)
+
 Descárguelo como un archivo .zip.
+
+![materiales4](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/f95e034a-fe80-4985-9d82-32e610ec786e)
 
 Haga clic en el símbolo del archivo.
 
+![materiales5](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/5e2c6f10-8624-4195-8089-80c953fb947d)
+
 Extraiga el archivo en /root/Desktop.
 
+![materiales6](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/8104e85e-fde0-429c-a5e0-b954420a4111)
+
 Debería de tener un escritorio similar a este:
+
+![materiales7](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/2b3a148a-1ecc-4294-8eb7-36fc246cdbf5)
 
 ## Instalar Drivers
 
@@ -125,11 +143,17 @@ Usando el ícono del Sistema de archivos en el escritorio, navegue hasta **/usr/
 
 Arrastre el directorio HandsOnPi2040 a **../instr.lib**.
 
+![drivers1](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/3c332951-463f-4f94-998c-b696ae12383b)
+
 Abra LabVIEW y cree un nuevo VI. Verifique que los controladores estén en instr.lib como es de esperarse.
 
-## Hacer que Emulador.exe corra en Linux
+![drivers2](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/227b0d93-26f5-49c0-bece-909e368dd3ba)
+
+## Hacer que el Emulador corra en Linux
 
 El archivo CTIPicoVISAEmulator.exe debe configurarse para que sea ejecutable.
+
+![emulador](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/2ef86806-dd98-4bed-a29c-9d2225df72c6)
 
 ## Configurar Firmware del RPi Pico
 
@@ -137,15 +161,25 @@ Cada Raspberry Pi Pico necesitará tener instalado el firmware del curso.
 
 Mantenga presionado el botón BOOTSEL en el RPi Pico y conecte el cable USB a la computadora. El RPi Pico actuará como una unidad flash.
 
+![firmware1](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/68427376-917b-47a2-92b8-25b419521375)
+
 En la máquina virtual Linux, seleccione Devices >> USB >> Raspberry Pi RP2 Boot [0100] (o similar).
+
+![firmware2](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/2019ff3e-9f2d-4058-9577-5022c4eb56f1)
 
 Esto montará el disco duro en el escritorio.
 
+![firmware3](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/8f175a08-195b-42e5-857a-6f356b3e359f)
+
 Luego arrastre y suelte el archivo de firmware del curso en el RPi Pico. Esto instalará el firmware, y el LED del RPi Pico parpadeará una luz verde 6 veces.
+
+![firmware4](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/de761032-adee-4c97-b92a-b2d3f7d92566)
 
 ## Conectar y Probar el RPi Pico
 
 En la máquina virtual Linux, seleccione Devices >> USB >> Raspberry Pi Pico [0100] (o similar).
+
+![connectandtest](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/8de21e74-d91a-49fd-9eb4-55784eb4c5fc)
 
 Conecte el RPi Pico.
 
