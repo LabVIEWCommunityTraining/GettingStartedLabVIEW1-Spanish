@@ -1,7 +1,7 @@
 ##### Session de 3 horas con LabVIEW y Raspberry Pi Pico HW Español
 
-1.  [Manual del curso](./ManualCurso.html)
-2.  [Instrucciones para tutor](./InstruccionesTutor.html)
+1.  [Instrucciones para tutor](./InstruccionesTutor.html)
+2.  [Manual del curso](./ManualCurso.html)
 3.  [Emulador de instrumento en LabVIEW](./EmuladorInstrumento.html)
 4.  [Drivers para el Hardware en LabVIEW](./Drivers.html)
 5.  [Ejemplos](./Ejemplos.html)
