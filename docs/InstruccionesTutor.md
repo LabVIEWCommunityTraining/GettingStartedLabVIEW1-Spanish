@@ -42,7 +42,7 @@ Encuentre el archivo .OVA previamente descargado y presiona el botón Next.
 
 ![image](./assets/VirtualBoxOVA.png)
 
-De ser necesario revise los Settings de la máquina virtual.
+De ser necesario revise los Settings de la máquina virtual. Se pueden hacer cambios con doble click en lo que se quiera modificar. Por ejemplo, es posible que el número de CPUs sea diferente.
 
 ![image](./assets/ApplianceSettings.png)
 
