@@ -94,7 +94,7 @@ Para poder activar la licencia de LabView Community Edition, se requiere una cue
 
 ![image](./assets/NIAccount.png)
 
-Al abrir LabVIEW, deberá dar click en el botón 'Activate LabVIEW Community Edition'.
+De regreso en la máquina virtual, al abrir LabVIEW, deberá dar click en el botón 'Activate LabVIEW Community Edition'.
 
 ![image](./assets/ActivateLabVIEW.png)
 
