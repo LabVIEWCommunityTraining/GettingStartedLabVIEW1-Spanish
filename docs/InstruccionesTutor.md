@@ -25,13 +25,14 @@ Visite el sitio:
 
 ## Importar Máquina Virtual (VM)
 
-Visite el sitio de GCentral para descargar una imagen de máquina virtual que contiene LabVIEW previamente instalado:
+Visite el sitio de GCentral para descargar una imagen de máquina virtual que contiene LabVIEW previamente instalado.
+Ve a "Initiatives" y presiona el enlace "Community Training Initiative". Una vez ahí, presiona el enlace "Download the CTI VMN" para bajar la imagen de la máquina virtual.
 
 [GCentral](https://www.gcentral.org)
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/7232195/31aa4276-be32-4ff8-82da-e9752427e0d2)
 
-Ve a "Initiatives" y presiona el enlace "Community Training Initiative"
+
 
 Una vez descargado, vaya a Virtual Box, al menú **File >> Import Appliance into Virtualbox**, o bien presione **Ctrl+I**.
 
