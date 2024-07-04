@@ -27,9 +27,11 @@ Visite el sitio:
 
 Visite el sitio de GCentral para descargar una imagen de máquina virtual que contiene LabVIEW previamente instalado:
 
-[GCentral - Community Training Initiative](https://www.gcentral.org/g-community-resources/community-training-image)
+[GCentral - Community Training Initiative](https://www.gcentral.org)
 
-![image](./assets/GCentralmage.png)
+![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/7232195/31aa4276-be32-4ff8-82da-e9752427e0d2)
+
+Ve a "Initiatives" y presiona el enlace "Community Training Initiative"
 
 Una vez descargado, vaya a Virtual Box, al menú **File >> Import Appliance into Virtualbox**, o bien presione **Ctrl+I**.
 
