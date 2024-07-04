@@ -27,7 +27,7 @@ Visite el sitio:
 
 Visite el sitio de GCentral para descargar una imagen de máquina virtual que contiene LabVIEW previamente instalado:
 
-[GCentral - Community Training Initiative](https://www.gcentral.org)
+[GCentral](https://www.gcentral.org)
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/7232195/31aa4276-be32-4ff8-82da-e9752427e0d2)
 
