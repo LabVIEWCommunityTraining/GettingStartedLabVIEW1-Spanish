@@ -74,7 +74,8 @@ Arrastra el VI Initialize.vi, WriteDO.vi y Close.vi en el diagrama de bloques co
 
 LabVIEW no le permitirá ejecutar el código fuente hasta que se solucionen estos errores. Cierre la Lista de errores y seleccione todos los Vis. (Haga clic con el botón izquierdo y arrastre el mouse).
 
-Presione 'Ctrl+Espacio' para abrir 'Quick Drop' y presione 'Ctrl+W' para conectar los VIs. Quick drop es una herramienta de productividad extremadamente útil que viene con LabVIEW. Le permite automatizar tareas repetitivas con algunas combinaciones de teclas.
+Seleccione los tres subVIs que están en el diagram de bloques.
+Presione 'Ctrl+Espacio' para abrir 'Quick Drop' y presione 'Ctrl+W' para conectar los VIs. Quick drop es una herramienta de productividad extremadamente útil que viene con LabVIEW. Le permite automatizar tareas repetitivas con algunas combinaciones de teclas. Si los subVIs no se conectan es porque no los seleccionó antes de activar 'Quick Drop'.
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/b09151fb-88f6-4823-922d-639e41c5ae2a)
 
