@@ -46,6 +46,12 @@ De ser necesario revise los Settings de la máquina virtual. Se pueden hacer cam
 
 ![image](./assets/ApplianceSettings.png)
 
+Para poder utilizar el hardware del CTI (Raspberry PI PICO) en ocasiones se requiere instalar el VirtualBox x.x.xx Oracle VirtualBox Extension Pack, el cual se encuentra en la misma pagina de [Virtual BOX Downloads](https://www.virtualbox.org/wiki/Downloads)
+
+![image](./assets/ExtensionPack.png)
+
+![image](./assets/ExtensionPack1.png)
+
 Presione el boton de 'Finish' y la imagen .OVA se importará y aparecerá como una nueva máquina virtual.
 
 ![image](./assets/OVAImport.png)
