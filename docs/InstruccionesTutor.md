@@ -59,8 +59,7 @@ Presione el boton de 'Finish' y la imagen .OVA se importará y aparecerá como u
 
 ![image](./assets/ExtensionPack1.png)
 
-
-Al finalizar, podrá ejecutar la máquina virtual haciendo click en el botón 'Start'.
+Al finalizar la configuracion de Virtual Box y la importación de la máquina virtual, podrá ejecutar la máquina virtual recien importada haciendo click en el botón 'Start'.
 
 ![image](./assets/OpenVM.png)
 
