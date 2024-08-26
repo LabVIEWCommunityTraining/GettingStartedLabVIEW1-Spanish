@@ -216,4 +216,4 @@ Parte de la idea detrás de este proyecto es que no haya costos respecto al soft
 
 La VM viene precargada con LibreOffice: es el medio preferido para leer los manuales.
 
-La VM también tiene un programa llamado Pinta, un programa de gráficos en capas similar a Paint.net. Los diagramas de cableado están hechos con este programa.
+La VM también tiene un programa llamado Pinta, un programa de gráficos en capas similar a Paint.net. Los diagramas de cableado están hechos con este programa, [PINTA](https://www.pinta-project.com/)
