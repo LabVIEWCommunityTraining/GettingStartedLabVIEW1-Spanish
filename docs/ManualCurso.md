@@ -202,7 +202,7 @@ Para un LED parpadeante necesitarás invertir el valor booleano después de cada
 
 Haga clic derecho dentro del ciclo For y coloque el cursor sobre "Timing". Allí verá muchas opciones de tiempo diferentes. Para ello utilizarás la función 'Wait (ms)'. Seleccionala y coloca dentro del bucle.
 
-Creea una constante haciendo clic derecho en el lado izquierdo de la función "Wait (ms)". La función "Wait (ms)" se ejecuta en milisegundos, por lo tanto, para ralentizar el ciclo medio segundo, escriba 500.
+Cree una constante haciendo clic derecho en el lado izquierdo de la función "Wait (ms)". La función "Wait (ms)" se ejecuta en milisegundos, por lo tanto, para ralentizar el ciclo medio segundo, escriba 500.
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Espanish/assets/5545396/b4139bcd-b996-4248-a196-99a3b79d2572)
 
@@ -419,7 +419,7 @@ Para resolver este problema, podemos agregar un ciclo While. Da click derecho pa
 
 ![image](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/5545396/60952926-50fc-49d2-8053-e6e6154ae2d2)
 
-Un ciclo While no funcionara sin una condicion de paro. En muchos casos se utiliza un simple botón de "Stop" boleano, da click derecho en la condicion de paro del While loop y selecciona 'Create Control', esto creara un boton en el panel frontal
+Un ciclo While no funcionara sin una condición de paro. En muchos casos se utiliza un simple botón de "Stop" boleano, da click derecho en la condición de paro del While loop y selecciona 'Create Control', esto creara un boton en el panel frontal
 
 _Esto añadirá automáticamente un "Stop" booleano en el panel frontal._
 
@@ -509,7 +509,7 @@ Abra la paleta de funciones haciendo clic derecho en el diagrama de bloques, col
 
 ![write14](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/e207a1ad-bc2b-40c0-9651-b2b032caa5fe)
 
-Un ciclos For necesita un 'Conteo de ciclos'. Elija un número que le permita usar los diales y ver cómo se ejecuta en el Waveform Chart.
+Un ciclo For necesita un 'Conteo de ciclos'. Elija un número que le permita usar los diales y ver cómo se ejecuta en el Waveform Chart.
 
 ![write15](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/7fcf0539-ec42-4861-bbb5-87d72b85ffa3)
 
