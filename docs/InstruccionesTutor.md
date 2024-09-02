@@ -113,9 +113,23 @@ Esto cargará el sitio de activación utilizando Firefox.
 
 Ingrese los detalles de su cuenta de usuario y la licencia de LabView se activará.
 
-Si al activar la licencia de LabVIEW se muestra el siguiente error.
+Si al intentar activar la licencia de LabVIEW aparece un mensaje como el siguiente:
 
+![image](./assets/ActivationErrorLinux.png)
 
+Debemos verificar que tengamos activa la licencia community de Linux. Para poder hacer esto podemo seguir los siquientes pasos:
+1. Accedemos a ni.com y hacemos log-in con nuestro usuario y contraseña que se usó para intentar activar LabVIEW Community Edition.
+2. En la parte superior derecha pasamos nuestro mouse sobre nuestro usuario y buscamos le opción "Mis Productos".
+3. En "Mis Productos" debemos observar nuestras licencias de LabVIEW Community.
+![image](./assets/NIAccountLabVIEWCommunityLicenses.png)
+
+Si la licencia no aparece en "Mis Productos" podemos intentar forzar la obtención de la licencia descargando LabVIEW Community Edition 2022 for Linux.
+
+Para descargar el producto seguimos los siguiente pasos:
+1. Vamos el Menú Productos>>LabVIEW.
+2. Damos clic en Descargar.
+3. Seleccionamos LabVIEW 20xx Community para Linux.
+![image](./assets/LabVIEWCommunityLinuxDownload.png)
 
 Si quiere remover una licencia, el archivo .lc se puede encontra en **/root/natinst/.config/LabView-2022/**.
 
