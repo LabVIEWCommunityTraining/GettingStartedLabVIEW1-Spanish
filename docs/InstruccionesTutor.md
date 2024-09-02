@@ -113,6 +113,10 @@ Esto cargará el sitio de activación utilizando Firefox.
 
 Ingrese los detalles de su cuenta de usuario y la licencia de LabView se activará.
 
+Si al intentar activar la licencia de LabVIEW aparece un mensaje como el siguiente:
+
+![image](./assets/ActivationErrorLinux.png)
+
 Si quiere remover una licencia, el archivo .lc se puede encontra en **/root/natinst/.config/LabView-2022/**.
 
 ![cargarlabview2](https://github.com/LabVIEWCommunityTraining/GettingStartedLabVIEW1-Spanish/assets/170447709/b5e63fa2-f7a7-4595-8769-89753523518a)
