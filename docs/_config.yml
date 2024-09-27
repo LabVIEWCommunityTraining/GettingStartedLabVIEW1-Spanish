@@ -2,5 +2,5 @@ remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: [Iniciativa de entrenamiento para la Comunidad]
-description: [Community Training Initiative]
+title: [Entrenamiento en LabVIEW para la comunidad en español]
+description: [Entrenamiento en LabVIEW con Raspberry PI PICO para la comunidad de habla hispana]
