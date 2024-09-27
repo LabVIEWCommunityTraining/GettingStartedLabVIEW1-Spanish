@@ -1,4 +1,4 @@
-##### Session de 3 horas con LabVIEW y Raspberry Pi Pico HW Español
+##### Session de entrenamiento con LabVIEW y Raspberry Pi Pico HW Español
 
 1.  [Instrucciones para tutor](./InstruccionesTutor.html)
 2.  [Manual del curso](./ManualCurso.html)
