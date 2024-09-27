@@ -15,7 +15,7 @@
 
 ## Instalar VirtualBox
 
-Visite el sitio (Demo Yoey):
+Visite el sitio:
 
 [Virtual Box Downloads](https://www.virtualbox.org/wiki/Downloads)
 
